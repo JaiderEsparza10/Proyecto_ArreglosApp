@@ -1,0 +1,27 @@
+/* Utilizamos el selector universal para realizar el reseteo de margen, padding y definimos el tipo de caja */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+/* Ahora aplicamos las custom properties */
+:root{
+    /* ------- ESTILOS PARA EL INDEX ------- */
+    /* Tamaños y margenes */
+    --tamano-body: 100vh;
+    --tamano-contenedor: 500px;
+    --distancia-logo: 30px;
+    --tamano-logo: 280px;
+    --padding-boton: 20px;
+    --margen-centrado: 0 auto;
+    /* COLORES */
+    --color-boton: #6A1B9A;
+    --color-font: #ffff;
+    /* TIPOGRAFIA */
+    --tipo-fuente: "Poppins", sans-serif;
+    --tipo-grosor: 300;
+    --tamano-fuente: 24px;
+}
+
