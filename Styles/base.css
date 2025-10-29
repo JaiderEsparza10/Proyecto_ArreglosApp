@@ -12,9 +12,9 @@
     /* Tamaños y margenes */
     --tamano-body: 100vh;
     --tamano-contenedor: 500px;
-    --distancia-logo: 30px;
+    --distancia-logo: 20px;
     --tamano-logo: 280px;
-    --padding-boton: 20px;
+    --padding-boton: 15px;
     --margen-centrado: 0 auto;
     /* COLORES */
     --color-boton: #6A1B9A;
