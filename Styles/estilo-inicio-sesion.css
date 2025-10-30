@@ -1,7 +1,8 @@
+@import url(base.css);
 body{
     display: flex;
     flex-direction: column;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--tipo-fuente);
 }
 
 /* SECCIÓN SUPERIOR: se almacena el logo y nombre */
@@ -9,15 +10,15 @@ body{
 .seccion-logo{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: var(--alinear-items);
 }
 
 .seccion-logo__logo{
-    width: 90px;
+    width: var(--ancho-logo);
 }
 
 .seccion-logo__nombre{
-    font-weight: 10;
+    font-weight: var(--grosor-fuente);
 }
 
 /* SECCIÓN DE FORMULARIO */
@@ -26,12 +27,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: var(--alinear-items);
 }
 
 .contenedor-registro__titulo{
-    font-weight: 10;
-    margin-top: 80px;
+    font-weight: var(--grosor-fuente);
+    margin-top: var(--distancia-titulo);
 }
 
 /* Contenedor Principal con fondo morado */
@@ -39,32 +40,37 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: var(--alinear-items);
     gap: 25px;
-    background: linear-gradient(#6a1b9a, #2c0047); /* Un color morado similar al de la imagen */
-    padding: 30px;
-    width: 300px; /* Ancho de ejemplo */
-    border-radius: 29px; 
+    background: var(--color-fondo-formulario); /* Un color morado similar al de la imagen */
+    padding: var(--padding-contenedor-login);
+    width: var(--ancho-contenedor-login);
+    border-radius: var(--borde-contenedor-login); 
+    margin-top: var(--contenedor-distancia-titulo);
 }
 
 /* Estilos de cada campo (Usuario, Contraseña) */
 .contenedor-login__campo {
-    width: 100%;
+    width: var(--ancho-lineas-formulario);
 }
 
 .contenedor-login__imagen{
-    width: 100px;
+    width: var(--tamano-imagen-login);
     
 }
 
 /* Contiene el Icono y el Label/Texto */
 .campo__usuario {
     display: flex; /* Alinea el ícono y el texto horizontalmente */
-    align-items: center;
-    color: white; /* Color del texto y el icono */
-    margin-bottom: 5px;
-    font-family: sans-serif;
-    font-size: 16px;
+    align-items: var(--alinear-items);
+    color: var(--color-fuente); /* Color del texto y el icono */
+    margin-bottom: 7px;
+    font-family: var(--tipo-fuente);
+    font-size: var(--tamano-fuente-formulario);
+}
+
+.campo__usuario label {
+    margin-top: 10px;
 }
 
 .campo__usuario .campo__usuario__icono{
@@ -73,19 +79,26 @@ body{
 }
 
 .contenedor-login__campo input {
-    /* El input es el área donde escribirás */
-    width: 100%;
+    width: var(--ancho-input);
     border: none;
     background: transparent; /* Fondo transparente para que se vea el morado */
-    color: white; /* El texto que escribas será blanco */
+    color: var(--color-fuente); /* El texto que escribas será blanco */
     padding: 5px 0;
     outline: none; /* Quitar el borde de enfoque por defecto */
-    font-size: 16px;
+    font-size: var(--tamano-fuente-input);
 }
 
 /* SECCION CONTRASEÑA */
-.campo__contrasena{
-    color: white;
+/* Adjusted to align the icon and label horizontally */
+.campo__contrasena {
+    display: flex;
+    flex-direction: row; 
+    align-items: var(--alinear-items); 
+    color: var(--color-fuente);
+}
+
+.campo__contrasena label {
+    margin-top: 10px;
 }
 
 .campo__contrasena .campo__contrasena__icono {
@@ -99,7 +112,7 @@ body{
 .linea-separadora {
     height: 1px;
     width: 100;
-    background-color: white; /* Color de la línea */
+    background-color: white;
 }
 
 
@@ -107,8 +120,8 @@ body{
 .contenedor-login__recuperar-contraseña{
     text-decoration: none;
     font-size: 15px;
-    color: #00c7ea;
-    margin-left: 120px;
+    color: var(--color-fuente-secundario);
+    margin-left: 114px;
 }
 
 /* BOTON INICIAR SESIÓN */

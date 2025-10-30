@@ -23,5 +23,25 @@
     --tipo-fuente: "Poppins", sans-serif;
     --tipo-grosor: 300;
     --tamano-fuente: 20px;
-}
 
+    /* ------- ESTILOS PARA EL INICIO DE SESIÓN ------- */
+    /* TAMAÑO, MARGENES, PADDING */
+    --alinear-items: center;
+    --ancho-logo: 90px;
+    --distancia-titulo: 70px;
+    --padding-contenedor-login: 30px;
+    --ancho-contenedor-login: 350px;
+    --contenedor-distancia-titulo: 30px; 
+    --ancho-lineas-formulario: 100%;
+    --tamano-imagen-login: 100px; 
+    --ancho-input: 100%;
+    /* FUENTE */
+    --grosor-fuente: 10;
+    --tamano-fuente-formulario: 16px;
+    /* COLORES */
+    --color-fondo-formulario: linear-gradient(#6a1b9a, #2c0047);
+    --color-fuente: white; 
+    --color-fuente-secundario: #00c7ea;
+    /* BORDES */
+    --borde-contenedor-login: 29px;
+}
