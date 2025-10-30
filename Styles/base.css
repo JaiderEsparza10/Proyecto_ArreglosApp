@@ -27,7 +27,7 @@
     /* ------- ESTILOS PARA EL INICIO DE SESIÓN ------- */
     /* TAMAÑO, MARGENES, PADDING */
     --alinear-items: center;
-    --ancho-logo: 90px;
+    --ancho-logo: 70px;
     --distancia-titulo: 70px;
     --padding-contenedor-login: 30px;
     --ancho-contenedor-login: 350px;
@@ -35,6 +35,7 @@
     --ancho-lineas-formulario: 100%;
     --tamano-imagen-login: 100px; 
     --ancho-input: 100%;
+    --ancho-boton-login: 100%;
     /* FUENTE */
     --grosor-fuente: 10;
     --tamano-fuente-formulario: 16px;

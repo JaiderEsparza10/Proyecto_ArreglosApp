@@ -11,6 +11,8 @@ body{
     display: flex;
     flex-direction: row;
     align-items: var(--alinear-items);
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .seccion-logo__logo{
@@ -127,11 +129,11 @@ body{
 /* BOTON INICIAR SESIÓN */
 .contenedor-login__iniciar-sesion{
     background: linear-gradient(#7000CE, #9057FA);
-    width: 100%;
+    width: var(--ancho-boton-login);
     text-align: center;
     text-decoration: none;
-    color: white;
-    font-weight: 10;
+    color: var(--color-fuente);
+    font-weight: var(--grosor-fuente);
     padding: 10px;
     border: 1px solid white;
     border-radius: 4px;
@@ -141,17 +143,17 @@ body{
 .contenedor-login__registrarse{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: var(--alinear-items);
     gap: 10px;
 }
 
 .registrarse__pregunta{
-    color: white;
+    color: var(--color-fuente);
     font-size: 15px;
-    font-weight: 10;
+    font-weight: var(--grosor-fuente);
 }
 
 .registrarse__formulario{
     text-decoration: none;
-    color: #00c7ea;
+    color: var(--color-fuente-secundario);
 }
