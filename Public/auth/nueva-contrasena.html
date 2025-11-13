@@ -19,24 +19,26 @@
         <div class="contenedor-principal__formulario-recuperar">
             <h1 class="formulario-recuperar__titulo">Nueva Contraseña</h1>
             <p class="formulario-recuperar__mensaje-recuperar">En este apartado podras ingresar la nueva contraseña. ¡Ten cuidado de no volverla a perder!</p>
-            <form class="formulario-recuperar__campos" action="../../Public/auth/nueva-contrasena.html" method="get">
-                <div class="contenedor-login__campo">
-                    <div class="campo__contrasena">
-                        <img class="campo__contrasena__icono" src="../../Assets/icons/padlock.png" alt="icono de candado">
-                        <label for="contrasena">Nueva Contraseña</label>
+            <form class="formulario-recuperar__campos" action="../../Public/auth/confirmacion-contraseña.html" method="get">
+                <div class="campos__formularios">
+                    <div class="contenedor-login__campo">
+                        <div class="campo__contrasena">
+                            <img class="campo__contrasena__icono" src="../../Assets/icons/padlock.png" alt="icono de candado">
+                            <label for="contrasena">Nueva Contraseña</label>
+                        </div>
+                        <input type="password" id="contrasena" placeholder="">
+                        <div class="linea-separadora"></div>
                     </div>
-                    <input type="password" id="contrasena" placeholder="">
-                    <div class="linea-separadora"></div>
-                </div>
-                <div class="contenedor-login__campo">
-                    <div class="campo__contrasena">
-                        <img class="campo__contrasena__icono" src="../../Assets/icons/padlock.png" alt="icono de candado">
-                        <label for="contrasena">Confirmar Contraseña</label>
+                    <div class="contenedor-login__campo">
+                        <div class="campo__contrasena">
+                            <img class="campo__contrasena__icono" src="../../Assets/icons/padlock.png" alt="icono de candado">
+                            <label for="contrasena">Confirmar Contraseña</label>
+                        </div>
+                        <input type="password" id="contrasena" placeholder="">
+                        <div class="linea-separadora"></div>
                     </div>
-                    <input type="password" id="contrasena" placeholder="">
-                    <div class="linea-separadora"></div>
                 </div>
-                <button class="contenedor-login__iniciar-sesion" type="submit" class="boton-verificar">Cambiar Contraseña</button>
+                 <button class="contenedor-login__iniciar-sesion" type="submit" class="boton-verificar">Cambiar Contraseña</button>
             </form>
         </div> 
     </main>
