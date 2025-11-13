@@ -1,0 +1,53 @@
+@import url(base.css);
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--tipo-fuente);
+}
+
+/* SECCION LOGO DE LA PAGINA */
+
+.seccion-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: var(--alinear-items);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.seccion-logo__logo{
+    width: var(--ancho-logo);
+}
+
+.seccion-logo__nombre{
+    font-weight: var(--grosor-fuente);
+}
+
+/* CONTENEDOR PRINCIPAL DEL FORMULARIO */
+.contenedor-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: var(--alinear-items);
+}
+
+/* ESPACIO PARA LA FLECHA DE DEVOLVER */
+
+.contenedor-principal__flecha-atras{
+    width: 30px;
+    margin-top: 30px;
+    align-self: flex-start;
+    margin-left: 40px;
+}
+.contenedor-principal__formulario-recuperar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: var(--alinear-items);
+    gap: 25px;
+    background: var(--color-fondo-formulario); /* Un color morado similar al de la imagen */
+    padding: var(--padding-contenedor-login);
+    width: var(--ancho-contenedor-login);
+    border-radius: var(--borde-contenedor-login); 
+    margin-top: var(--contenedor-distancia-titulo);
+}
