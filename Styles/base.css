@@ -8,20 +8,11 @@
 }
 /* Ahora aplicamos las custom properties */
 :root{
-    /* ------- ESTILOS PARA EL INDEX ------- */
-    /* Tamaños y margenes */
-    --tamano-body: 100vh;
-    --tamano-contenedor: 500px;
-    --distancia-logo: 20px;
-    --tamano-logo: 280px;
-    --padding-boton: 15px;
-    --margen-centrado: 0 auto;
     /* COLORES */
     --color-boton: #6A1B9A;
     --color-font: #ffff;
     /* TIPOGRAFIA */
     --tipo-fuente: "Poppins", sans-serif;
-    --tipo-grosor: 300;
     --tamano-fuente: 20px;
 
     /* ------- ESTILOS PARA EL INICIO DE SESIÓN ------- */
@@ -30,19 +21,27 @@
     --ancho-logo: 70px;
     --distancia-titulo: 70px;
     --padding-contenedor-login: 30px;
-    --ancho-contenedor-login: 350px;
+    --ancho-contenedor-login: 400px;
     --contenedor-distancia-titulo: 30px; 
     --ancho-lineas-formulario: 100%;
     --tamano-imagen-login: 100px; 
     --ancho-input: 100%;
     --ancho-boton-login: 100%;
     /* FUENTE */
-    --grosor-fuente: 10;
+    --grosor-fuente: 400;
     --tamano-fuente-formulario: 16px;
     /* COLORES */
     --color-fondo-formulario: linear-gradient(#6a1b9a, #2c0047);
     --color-fuente: white; 
     --color-fuente-secundario: #00c7ea;
+    --color-hover-boton: linear-gradient(#9057FA, #7000CE);;
     /* BORDES */
     --borde-contenedor-login: 29px;
+
+    /* ESTILOS PARA RECUPERAR LA CONTRASEÑA */
+    /* TAMAÑO, MARGENES Y PADDING */
+    /* FUENTE */
+    --tamano-fuente-recuperar: 25px;
+    /* COLORES */
+    --color-fondo-recuperar: linear-gradient(#F037DE, #0C000D);
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../Styles/estilo-inicio-sesion.css">
+    <link rel="stylesheet" href="../../estilos.css">
     <title>Inicio de Sesión</title>
 </head>
 <body>
@@ -13,8 +13,8 @@
     </header>
     <main class="contenedor-registro">
         <h1 class="contenedor-registro__titulo">INICIAR SESIÓN</h1>
+        <img class="contenedor-login__imagen" src="../../Assets/icons/user-inicio.png" alt="logo de usuario">
         <form class="contenedor-login" action="Public/auth/pagina-principal.html" method="post">
-            <img class="contenedor-login__imagen" src="../../Assets/icons/user-inicio.png" alt="logo de usuario">
             <div class="contenedor-login__campo">
                 <div class="campo__usuario">
                     <img class="campo__usuario__icono" src="../../Assets/icons/user.png" alt="icono de usuario">
@@ -31,11 +31,11 @@
                 <input type="password" id="contrasena" placeholder="">
                 <div class="linea-separadora"></div>
             </div>
-            <a class="contenedor-login__recuperar-contraseña" href="recuperar-contrasena.html">¿Olvidaste tu contraseña?</a>
+            <a class="contenedor-login__formulario-recuperar" href="../../Public/auth/recuperar-contrasena.html">¿Olvidaste tu contraseña?</a>
             <button type="submit" class="contenedor-login__iniciar-sesion">INICIAR SESIÓN</button>
             <div class="contenedor-login__registrarse">
                 <h3 class="registrarse__pregunta">¿No tienes cuenta?</h3>
-                <a class="registrarse__formulario" href="registrarse.html">Registrarse</a>
+                <a class="registrarse__formulario" href="../../Public/auth/registrarse.html">Registrarse</a>
             </div>
         </form>
     </main>

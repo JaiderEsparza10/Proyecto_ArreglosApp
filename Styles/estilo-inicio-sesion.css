@@ -49,6 +49,7 @@ body{
     width: var(--ancho-contenedor-login);
     border-radius: var(--borde-contenedor-login); 
     margin-top: var(--contenedor-distancia-titulo);
+    padding-top: 60px;
 }
 
 /* Estilos de cada campo (Usuario, Contraseña) */
@@ -56,9 +57,12 @@ body{
     width: var(--ancho-lineas-formulario);
 }
 
+/* LOGO DE LA IMAGEN */
+
 .contenedor-login__imagen{
     width: var(--tamano-imagen-login);
-    
+    position: relative;
+    top: 70px;
 }
 
 /* Contiene el Icono y el Label/Texto */
@@ -91,7 +95,6 @@ body{
 }
 
 /* SECCION CONTRASEÑA */
-/* Adjusted to align the icon and label horizontally */
 .campo__contrasena {
     display: flex;
     flex-direction: row; 
@@ -119,11 +122,11 @@ body{
 
 
 /* SECCION OLVIDAR CONTRASEÑA */
-.contenedor-login__recuperar-contraseña{
+.contenedor-login__formulario-recuperar{
     text-decoration: none;
     font-size: 15px;
     color: var(--color-fuente-secundario);
-    margin-left: 114px;
+    margin-left: 144px;
 }
 
 /* BOTON INICIAR SESIÓN */
@@ -139,7 +142,10 @@ body{
     border-radius: 4px;
 }
 
-
+.contenedor-login__iniciar-sesion:hover{
+    background: var(--color-hover-boton);
+    cursor: pointer;
+}
 
 /* SECCION REGISTRARSE */
 .contenedor-login__registrarse{
