@@ -4,58 +4,13 @@ body{
     font-family: var(--tipo-fuente);
 }
 
-/* SECCION LOGO DE LA PAGINA */
-
-.seccion-logo{
-    display: flex;
-    flex-direction: row;
-    align-items: var(--alinear-items);
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.seccion-logo__logo{
-    width: var(--ancho-logo);
-}
-
-.seccion-logo__nombre{
-    font-weight: var(--grosor-fuente);
-}
-
 /* CONTENEDOR PRINCIPAL DEL FORMULARIO */
+
 .contenedor-principal{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: var(--alinear-items);
-}
-
-/* ESPACIO PARA LA FLECHA DE DEVOLVER */
-
-.contenedor-principal__flecha-atras{
-    width: 30px;
-    margin-top: 30px;
-    align-self: flex-start;
-    margin-left: 40px;
-}
-
-/* LOGO DE RECUPERAR USUARIO */
-.contenedor-principal__logo-recuperar{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: var(--color-fondo-recuperar);
-    position: relative;
-    top: 60px;
-}
-
-.contenedor-principal__imagen{
-    width: 90px;
 }
 
 /* CUADRO EN DONDE SE ENCUENTRA ALMACENADO EL FORMULARIO */
@@ -75,6 +30,7 @@ body{
 }
 
 /* TITULO DEL FORMULARIO */
+
 .formulario-recuperar__titulo{
     color: var(--color-fuente);
     font-size: var(--tamano-fuente-recuperar);
@@ -82,6 +38,7 @@ body{
 }
 
 /* FUENTE DE MENSAJE */
+
 .formulario-recuperar__mensaje-recuperar{
     color: var(--color-fuente);
     font-size: 15px;
@@ -89,11 +46,13 @@ body{
 }
 
 /* CONTENEDOR DEL FORMULARIO */
+
 .formulario-recuperar__campos{
     width: 300px;
 }
 
 /* ESTILO DE CADA CAMPO DEL FORMULARIO  */
+
 .campos__label-codigo {
     width: 300px; 
     height: 80px; 
@@ -101,7 +60,6 @@ body{
     justify-content: space-evenly; 
     align-items: center; 
     padding: 0 10px;
-    /* margin-bottom: 40px; */
 }
 
 .label-codigo__input-codigo {
@@ -116,6 +74,4 @@ body{
 .label-codigo__input-codigo:focus {
     outline: none;
 }
-
-/* BOTON DE RECUPERAR CONTRASEÑA */
 

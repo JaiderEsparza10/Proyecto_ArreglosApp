@@ -8,3 +8,7 @@
 
 
 @import url(Styles/Components/boton_inicio.css);
+@import url(Styles/Components/encabezado-logo.css);
+@import url(Styles/Components/flecha-atras.css);
+@import url(Styles/Components/icono-recuperar-contraseña.css);
+@import url(Styles/Components/input-contraseña.css);
