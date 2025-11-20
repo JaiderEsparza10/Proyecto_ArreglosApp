@@ -77,17 +77,21 @@
 }
 
 /* TARJETAS O CARDS */
+.tarjeta-arreglo__imagen-contenedor img {
+    object-fit: cover;
+    height: 100%;
+    width: 200px;
+}
+.tarjeta-arreglo__imagen-contenedor {
+    height: 100px;
+    background-color: #ddd; 
+}
 
 .tarjeta-arreglo {
     background-color: white;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.tarjeta-arreglo__imagen-contenedor {
-    height: 100px;
-    background-color: #ddd; 
 }
 
 .tarjeta-arreglo__contenido {

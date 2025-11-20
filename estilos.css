@@ -12,6 +12,11 @@
 @import url(Styles/estilos-mis-arreglos.css);
 @import url(Styles/estilos-mis-pedidos.css);
 @import url(Styles/estilos-mi-perfil.css);
+@import url(Styles/estilos-detalles-costuras.css);
+@import url(Styles/estilos-arreglos-medida.css);
+@import url(Styles/estilos-vestidos-finos.css);
+@import url(Styles/estilos-detalles-sastreria.css);
+@import url(Styles/estilos-arreglo-bolsillos.css);
 /* IMPORTAMOS LOS COMPONENTES QUE HAN SIDO CREADOS */
 @import url(Styles/Components/boton_inicio.css);
 @import url(Styles/Components/encabezado-logo.css);
