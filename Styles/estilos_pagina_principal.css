@@ -1,0 +1,15 @@
+.seccion-encabezado{
+    display: flex;
+    flex-direction: row;
+    align-items: var(--alinear-items);
+    background-color: var(--color-fondo-encabezado);
+    padding: var(--padding-general);
+}
+.seccion-encabezado__logo{
+    width: var(--ancho-logo);
+}
+
+.seccion-encabezado__nombre{
+    font-weight: var(--grosor-fuente);
+    color: var(--color-fuente);
+}

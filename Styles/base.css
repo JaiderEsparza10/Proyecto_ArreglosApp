@@ -10,38 +10,36 @@
 :root{
     /* COLORES */
     --color-boton: #6A1B9A;
-    --color-font: #ffff;
-    /* TIPOGRAFIA */
-    --tipo-fuente: "Poppins", sans-serif;
-    --tamano-fuente: 20px;
-
-    /* ------- ESTILOS PARA EL INICIO DE SESIÓN ------- */
-    /* TAMAÑO, MARGENES, PADDING */
-    --alinear-items: center;
-    --ancho-logo: 70px;
-    --distancia-titulo: 47px;
-    --padding-contenedor-login: 30px;
-    --ancho-contenedor-login: 400px;
-    --contenedor-distancia-titulo: 30px; 
-    --ancho-lineas-formulario: 100%;
-    --tamano-imagen-login: 100px; 
-    --ancho-input: 100%;
-    --ancho-boton-login: 100%;
-    /* FUENTE */
-    --grosor-fuente: 400;
-    --tamano-fuente-formulario: 16px;
-    /* COLORES */
     --color-fondo-formulario: linear-gradient(#6a1b9a, #2c0047);
     --color-fuente: white; 
     --color-fuente-secundario: #00c7ea;
-    --color-hover-boton: linear-gradient(#9057FA, #7000CE);;
+    --color-hover-boton: linear-gradient(#9057FA, #7000CE);
+    --color-fondo-recuperar: linear-gradient(#F037DE, #0C000D);
+    --color-fondo-encabezado: #6A1B9A;
+    /* TIPOGRAFIA */
+    --tipo-fuente: "Poppins", sans-serif;
+    --tamano-fuente: 20px;
+    --grosor-fuente: 400;
+    --tamano-fuente-formulario: 16px;
+    --tamano-fuente-recuperar: 25px;
+    /* ANCHO */
+    --ancho-logo: 70px;
+    --ancho-contenedor-login: 400px;
+    --ancho-input: 100%;
+    --ancho-boton-login: 100%;
+    --ancho-general: 20px;
+    --ancho-lineas-formulario: 100%;
+    --tamano-imagen-login: 100px; 
+    /* PADDING */
+    --padding-contenedor-login: 30px;
+    --padding-general: 20px;
+    /* ALINEAR */
+    --alinear-items: center;
+    /* MARGENES */
+    --margen-abajo: 20px;
+    --margen-arriba: 10px;
+    --distancia-titulo: 47px;
+    --contenedor-distancia-titulo: 30px; 
     /* BORDES */
     --borde-contenedor-login: 29px;
-
-    /* ESTILOS PARA RECUPERAR LA CONTRASEÑA */
-    /* TAMAÑO, MARGENES Y PADDING */
-    /* FUENTE */
-    --tamano-fuente-recuperar: 25px;
-    /* COLORES */
-    --color-fondo-recuperar: linear-gradient(#F037DE, #0C000D);
 }

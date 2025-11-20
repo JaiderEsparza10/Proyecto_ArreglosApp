@@ -5,3 +5,8 @@
     font-weight: var(--grosor-fuente);
     font-size: 30px;
 }
+
+.formulario-recuperar__icono-confirmar{
+    width: 150px;
+    margin-top: 20px;
+}

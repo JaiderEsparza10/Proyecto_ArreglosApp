@@ -56,11 +56,11 @@ body{
 }
 
 .campo__usuario label {
-    margin-top: 10px;
+    margin-top: var(--margen-arriba);
 }
 
 .campo__usuario .campo__usuario__icono{
-    width: 20px;
+    width: var(--ancho-general);
     margin-right: 10px;
     margin-top: 4px;
 }
@@ -84,12 +84,12 @@ body{
 }
 
 .campo__contrasena label {
-    margin-top: 10px;
+    margin-top: var(--margen-arriba);
 }
 
 .campo__contrasena .campo__contrasena__icono {
     margin-top: 5px;
-    width: 20px;
+    width: var(--ancho-general);
     margin-right: 4%;
 }
 
@@ -108,7 +108,7 @@ body{
     font-size: 15px;
     color: var(--color-fuente-secundario);
     margin-left: 144px;
-    margin-bottom: 20px;
+    margin-bottom: var(--margen-abajo);
 }
 
 /* BOTON INICIAR SESIÓN */
@@ -141,11 +141,11 @@ body{
     color: var(--color-fuente);
     font-size: 15px;
     font-weight: var(--grosor-fuente);
-    margin-top: 10px;
+    margin-top: var(--margen-arriba);
 }
 
 .registrarse__formulario{
     text-decoration: none;
     color: var(--color-fuente-secundario);
-    margin-top: 10px;
+    margin-top: var(--margen-arriba);
 }
