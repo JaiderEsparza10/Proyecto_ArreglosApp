@@ -1,3 +1,7 @@
-.campos__formularios{
-    margin-bottom: 40px;
+.contenedor-principal__titulo{
+    font-family: var(--tipo-fuente);
+    color: var(--color-fuente);
+    text-align: center;
+    font-weight: var(--grosor-fuente);
+    font-size: 30px;
 }
