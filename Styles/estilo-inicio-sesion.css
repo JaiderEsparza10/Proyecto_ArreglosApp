@@ -1,11 +1,4 @@
-@import url(base.css);
-body{
-    display: flex;
-    flex-direction: column;
-    font-family: var(--tipo-fuente);
-}
 /* SECCIÓN DE FORMULARIO */
-
 .contenedor-registro{
     display: flex;
     flex-direction: column;
