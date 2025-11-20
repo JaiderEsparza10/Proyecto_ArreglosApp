@@ -10,6 +10,8 @@
 @import url(Styles/estilos_pagina_principal.css);
 @import url(Styles/estilo-mi-seleccion.css);
 @import url(Styles/estilos-mis-arreglos.css);
+@import url(Styles/estilos-mis-pedidos.css);
+@import url(Styles/estilos-mi-perfil.css);
 /* IMPORTAMOS LOS COMPONENTES QUE HAN SIDO CREADOS */
 @import url(Styles/Components/boton_inicio.css);
 @import url(Styles/Components/encabezado-logo.css);
