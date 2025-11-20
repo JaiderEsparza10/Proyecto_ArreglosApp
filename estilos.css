@@ -1,16 +1,19 @@
+/* IMPORTAMOS LAS FUENTES QUE VAMOS A UTILIZAR Y LAS CUSTOM PROPERTIES */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url(Styles/base.css);
-
+/* IMPORTAMOS LOS ESTILOS CSS PARA CADA PAGINA */
 @import url(Styles/estilo-inicio-sesion.css);
 @import url(Styles/estilos_registro.css);
 @import url(Styles/estilos_recuperar_contrasena.css);
 @import url(Styles/estilos_pagina_principal.css);
 @import url(Styles/nueva-contrasena.css);
 @import url(Styles/estilos_pagina_principal.css);
-
-
+@import url(Styles/estilo-mi-seleccion.css);
+@import url(Styles/estilos-mis-arreglos.css);
+/* IMPORTAMOS LOS COMPONENTES QUE HAN SIDO CREADOS */
 @import url(Styles/Components/boton_inicio.css);
 @import url(Styles/Components/encabezado-logo.css);
 @import url(Styles/Components/flecha-atras.css);
 @import url(Styles/Components/icono-recuperar-contraseña.css);
 @import url(Styles/Components/input-contraseña.css);
+@import url(Styles/Components/grid-principal.css);
