@@ -77,18 +77,13 @@ body{
     width: 90vw;
 }
 .categorias__grid {
-    /* **CLAVE**: Usamos CSS Grid */
     display: grid;
-    /* **CLAVE**: Definimos 2 columnas de igual tamaño (1fr) */
     grid-template-columns: 1fr 1fr;
-    /* Espacio entre los elementos del grid */
     gap: 16px;
     padding: 0 16px;
 }
 
-/* -------------------------------------- */
-/* 2. TARJETA DE ARREGLO (CARD ITEM) */
-/* -------------------------------------- */
+/* TARJETAS O CARDS */
 
 .tarjeta-arreglo {
     background-color: white;
@@ -98,12 +93,8 @@ body{
 }
 
 .tarjeta-arreglo__imagen-contenedor {
-    /* Simula la imagen con un color y altura fija */
     height: 100px;
     background-color: #ddd; 
-    /* Estilos para las imágenes reales si se cargaran: */
-    /* background-size: cover; */
-    /* background-position: center; */
 }
 
 .tarjeta-arreglo__contenido {
@@ -119,7 +110,6 @@ body{
 }
 
 .tarjeta-arreglo__footer {
-    /* **CLAVE**: Usamos Flexbox para alinear precio y enlace */
     display: flex;
     justify-content: space-between; /* Separa el precio y el enlace */
     align-items: center;
@@ -140,44 +130,39 @@ body{
     font-weight: 600;
 }
 
-/* -------------------------------------- */
-/* 3. BARRA DE NAVEGACIÓN INFERIOR (FLEXBOX) */
-/* -------------------------------------- */
+/* SECCIÓN FOOTER Y BARRA DE NAVEGACIÓN*/
+
 .navbar{
     grid-area: footer;
-    width: 100vw;
+    width: 95vw;
 }
 .navbar-inferior {
-    /* **CLAVE**: Fija la barra en la parte inferior */
     position: fixed;
     bottom: 0;
-    width: 100%;
-    /* **CLAVE**: Usa Flexbox para distribuir los 5 ítems */
+    width: 95%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 60px;
-    background-color: #4A148C; /* Fondo morado oscuro */
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    background-color: var(--color-boton); /* Fondo morado oscuro */
+    border-radius: 32.5px;
+    border: 1px solid;
+    padding: 15px;
 }
 
 .navbar-inferior__item {
-    /* **CLAVE**: Flexbox interno para apilar el icono y el texto */
     display: flex;
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    color: #fff;
+    color: var(--color-fuente);
     flex-grow: 1; /* Distribuye el espacio equitativamente */
     padding: 5px 0;
 }
 
 .navbar-inferior__item--activo {
-    /* El ítem activo tiene un color más claro y la banda morada de la imagen */
-    color: #E1BEE7; 
-    /* Simulación de la banda superior de color: */
     position: relative;
-    padding-top: 10px;
+    padding-top: 6px;
 }
 
 /* Simulación de la banda morada en el ítem activo */
@@ -188,10 +173,11 @@ body{
     left: 0;
     right: 0;
     height: 4px;
-    background-color: #E1BEE7; /* Morado claro */
 }
 
+
 .navbar-inferior__icono {
+    width: 24px;
     font-size: 1.2em;
 }
 
