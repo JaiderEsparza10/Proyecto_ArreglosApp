@@ -1,9 +1,10 @@
+/* SECCIÓN DEL ENCABEZADO DE LA PAGINA */
 .seccion-encabezado{
     display: flex;
     flex-direction: row;
     align-items: var(--alinear-items);
     background-color: var(--color-fondo-encabezado);
-    padding: var(--padding-general);
+    padding: var(--padding-contenedor-encabezado);
 }
 .seccion-encabezado__logo{
     width: var(--ancho-logo);
@@ -12,4 +13,29 @@
 .seccion-encabezado__nombre{
     font-weight: var(--grosor-fuente);
     color: var(--color-fuente);
+}
+
+/* SECCIÓN BARRA DE BUSQUEDA */
+.contenido__barra-busqueda{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.contenido__barra-busqueda img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 23%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.contenido__barra-busqueda input{
+    width: 300px;
+    height: 35px;
+    font-size: var(--tamano-fuente-formulario);
+    padding-left: 35px;
 }
