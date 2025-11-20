@@ -16,12 +16,15 @@
     --color-hover-boton: linear-gradient(#9057FA, #7000CE);
     --color-fondo-recuperar: linear-gradient(#F037DE, #0C000D);
     --color-fondo-encabezado: #6A1B9A;
+    --color-precio-titulos: #000000;
+    --color-enlace: #00000075;
     /* TIPOGRAFIA */
     --tipo-fuente: "Poppins", sans-serif;
     --tamano-fuente: 20px;
     --grosor-fuente: 400;
     --tamano-fuente-formulario: 16px;
     --tamano-fuente-recuperar: 25px;
+    --grosor-titulos-cards: 300;
     /* ANCHO */
     --ancho-logo: 70px;
     --ancho-contenedor-login: 400px;

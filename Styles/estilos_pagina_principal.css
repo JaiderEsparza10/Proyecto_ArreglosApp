@@ -25,6 +25,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 75px;
 }
 
 /* SECCIÓN BARRA DE BUSQUEDA */
@@ -88,7 +89,7 @@
 }
 
 .tarjeta-arreglo {
-    background-color: white;
+    background-color: var(--color-fuente);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -96,11 +97,13 @@
 
 .tarjeta-arreglo__contenido {
     padding: 8px 10px;
+    /* margin-top: 10px; */
+    
 }
 
 .tarjeta-arreglo__nombre {
     font-size: 0.9em;
-    font-weight: 600;
+    font-weight: var(--grosor-titulos-cards);
     margin-top: 0;
     margin-bottom: 8px;
     line-height: 1.2;
@@ -110,21 +113,21 @@
     display: flex;
     justify-content: space-between; /* Separa el precio y el enlace */
     align-items: center;
-    margin-top: 4px;
+    margin-top: 26px;
 }
 
 .tarjeta-arreglo__precio {
-    color: #4A148C; /* Morado Oscuro */
-    font-weight: bold;
+    color: var(--color-precio-titulos); /* Morado Oscuro */
+    font-weight: var(--grosor-fuente);
     font-size: 1em;
     margin: 0;
 }
 
 .tarjeta-arreglo__enlace {
-    color: #7B1FA2; /* Morado medio */
+    color: var(--color-enlace); /* Morado medio */
     text-decoration: none;
     font-size: 0.8em;
-    font-weight: 600;
+    font-weight: var(--grosor-fuente);
 }
 
 /* SECCIÓN FOOTER Y BARRA DE NAVEGACIÓN*/
@@ -137,6 +140,7 @@
     position: fixed;
     bottom: 0;
     width: 95%;
+    height: 60px;
     display: flex;
     justify-content: space-around;
     align-items: center;
