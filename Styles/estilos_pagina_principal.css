@@ -1,12 +1,5 @@
-body{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: 
-    "header header header header header"
-    "main main main main main"
-    "footer footer footer footer footer";
-}
+/* IMPORTAMOS EL COMPONENTE PARA LA GRID */
+@import url(../Styles/Components/grid-principal.css);
 /* SECCIÓN DEL ENCABEZADO DE LA PAGINA */
 .seccion-encabezado{
     grid-area: header;
