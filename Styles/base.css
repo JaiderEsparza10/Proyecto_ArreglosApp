@@ -47,3 +47,7 @@
     /* BORDES */
     --borde-contenedor-login: 29px;
 }
+
+body{
+    font-family: var(--tipo-fuente);
+}
