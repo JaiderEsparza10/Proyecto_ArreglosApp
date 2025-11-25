@@ -1,11 +1,13 @@
-.contenedor-principal-detalles{
+/* SECCIÓN DEL ENCABEZADO */
+.contenedor-encabezado-detalles{
     background-color: var(--color-boton);
 }
 
-.contenedor-principal-detalles__encabezado{
+.contenedor-encabezado-detalles__encabezado{
     display: flex;
     justify-content: space-between;
     padding: 25px;
+    height: var(--tamano-header);
 }
 
 .encabezado__enlace{
@@ -17,7 +19,14 @@
 }
 
 .encabezado__titulo{
-    font-size: 20px;
+    font-size: var(--tamano-fuente);
     color: var(--color-fuente);
     font-weight: var(--grosor-fuente);
+}
+/* SECCIÓN DE CONTENIDO PRINCIPAl */
+.contenido-detalles{
+    height: var(--tamano-main-detalles);
+}
+.contenido-detalles_informacion-detalles{
+
 }

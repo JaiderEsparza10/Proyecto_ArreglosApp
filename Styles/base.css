@@ -33,6 +33,9 @@
     --ancho-general: 20px;
     --ancho-lineas-formulario: 100%;
     --tamano-imagen-login: 100px; 
+    /* ALTURAS */
+    --tamano-header: 85px;
+    --tamano-main-detalles: calc(100vh - var(--tamano-header));
     /* PADDING */
     --padding-contenedor-login: 30px;
     --padding-general: 20px;
