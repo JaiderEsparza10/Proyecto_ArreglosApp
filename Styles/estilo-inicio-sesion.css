@@ -21,7 +21,6 @@
     padding: var(--padding-contenedor-login);
     width: var(--ancho-contenedor-login);
     border-radius: var(--borde-contenedor-login); 
-    margin-top: var(--contenedor-distancia-titulo);
     padding-top: 60px;
 }
 
@@ -35,7 +34,7 @@
 .contenedor-login__imagen{
     width: var(--tamano-imagen-login);
     position: relative;
-    top: 70px;
+    top: 35px;
 }
 
 /* Contiene el Icono y el Label/Texto */
