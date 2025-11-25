@@ -22,6 +22,7 @@
     --color-parrafo-detalles: #00000077;
     --color-enlace-seleccion: black;
     --color-borde: #6A1B9A;
+    --color-gradiente-enlace: linear-gradient(#7000CE, #9057FA);
     /* TIPOGRAFIA */
     --tipo-fuente: "Poppins", sans-serif;
     --tamano-fuente: 20px;
@@ -37,6 +38,7 @@
     --ancho-general: 20px;
     --ancho-lineas-formulario: 100%;
     --tamano-imagen-login: 100px; 
+    --ancho-contenedores-informacion: 300px;
     /* ALTURAS */
     --tamano-header: 85px;
     --tamano-main-detalles: calc(100vh - var(--tamano-header));

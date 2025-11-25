@@ -103,23 +103,6 @@
     margin-bottom: var(--margen-abajo);
 }
 
-/* BOTON INICIAR SESIÓN */
-.contenedor-login__iniciar-sesion{
-    background: linear-gradient(#7000CE, #9057FA);
-    width: var(--ancho-boton-login);
-    text-align: center;
-    text-decoration: none;
-    color: var(--color-fuente);
-    font-weight: var(--grosor-fuente);
-    padding: 10px;
-    border: 1px solid white;
-    border-radius: 4px;
-}
-
-.contenedor-login__iniciar-sesion:hover{
-    background: var(--color-hover-boton);
-    cursor: pointer;
-}
 
 /* SECCION REGISTRARSE */
 .contenedor-login__registrarse{
