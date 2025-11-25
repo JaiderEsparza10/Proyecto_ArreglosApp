@@ -1,0 +1,23 @@
+.contenedor-principal-detalles{
+    background-color: var(--color-boton);
+}
+
+.contenedor-principal-detalles__encabezado{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.encabezado__enlace{
+    margin-top: 5px;
+}
+
+.enlace__imagen{
+    width: 23px;
+}
+
+.encabezado__titulo{
+    font-size: 20px;
+    color: var(--color-fuente);
+    font-weight: var(--grosor-fuente);
+}
