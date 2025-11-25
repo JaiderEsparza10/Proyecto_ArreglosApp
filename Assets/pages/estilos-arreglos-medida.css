@@ -51,16 +51,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     text-align: justify;
     margin-right: 3px;
-    margin-bottom: 180px;
+    margin-bottom: 50px;
     width: 300px;
+    gap: 20px;
 }
 
 .informacion__titulo{
     font-size: 30px;
-    margin-bottom: 17px;
 }
 
 .informacion__parrafo{
@@ -68,6 +68,39 @@
     color: var(--color-parrafo-detalles);
 }
 
+.informacion__enlace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--color-borde);
+    border-radius: 10px;
+    margin-right: 97px;
+    color: var(--color-enlace-seleccion);
+    font-weight: var(--grosor-fuente);
+    padding: 6px;
+    font-size: 13px;
+}
+
+.informacion__enlace:focus{
+    background-color: var(--color-boton);
+    color: var(--color-fuente);
+}
+
 .enlace__icono{
     width: 30px;
+    margin-right: 6px;
+}
+
+.informacion__tiempo-estimado{
+    display: flex;
+    gap: 10px;
+}
+
+.tiempo-estimado__dias{
+    color: var(--color-boton);
+}
+
+/* ENLACE PARA ENVIAR HACIA EL APARTADO DE PERSONALIZAR ARREGLO */
+.informacion-detalles__enlace-personalizar{
+    
 }
