@@ -23,6 +23,8 @@
     --color-enlace-seleccion: black;
     --color-borde: #6A1B9A;
     --color-gradiente-enlace: linear-gradient(#7000CE, #9057FA);
+    --color-borde-checkbox: gray;
+    --color-fuente-label: #333;
     /* TIPOGRAFIA */
     --tipo-fuente: "Poppins", sans-serif;
     --tamano-fuente: 20px;
@@ -42,6 +44,7 @@
     /* ALTURAS */
     --tamano-header: 85px;
     --tamano-main-detalles: calc(100vh - var(--tamano-header));
+    --alto-circulo-seleccion: 20px;
     /* PADDING */
     --padding-contenedor-login: 30px;
     --padding-general: 20px;
@@ -57,6 +60,8 @@
     /* BORDES */
     --borde-contenedor-login: 29px;
     --borde-imagenes: 17px;
+    --borde-label: 50%;
+    --borde-cajas: 10px;
 }
 
 body{

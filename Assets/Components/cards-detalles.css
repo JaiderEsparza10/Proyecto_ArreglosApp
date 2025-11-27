@@ -51,13 +51,3 @@
 .tiempo-estimado__dias{
     color: var(--color-boton);
 }
-
-/* ENLACE PARA ENVIAR HACIA EL APARTADO DE PERSONALIZAR ARREGLO */
-.informacion__enlace-personalizar{
-    width: var(--ancho-contenedores-informacion);
-    text-align: center;
-    background: var(--color-gradiente-enlace);
-    color: var(--color-fuente);
-    padding: 15px;
-    border-radius: 16px;
-}

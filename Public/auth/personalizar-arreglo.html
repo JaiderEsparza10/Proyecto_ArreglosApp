@@ -11,15 +11,41 @@
         <img class="seccion-encabezado__logo" src="../../Assets/image/logo-app.png" alt="logo de la aplicación">
         <h1 class="seccion-encabezado__nombre">Arreglos App</h1>
     </header>
-    <main class="contenido-perfil">
-        <div class="contenido-perfil__enlace-volver">
+    <main class="contenido-personalizar">
+        <div class="contenido-personalizar__enlace-volver">
             <a class="enlace-volver__enlace" href="pagina-principal.html">
                 <img class="enlace__imagen" src="../../Assets/icons/flecha-atras-negra.png" alt="flecha atras">
             </a>
             <h1 class="enlace-volver__titulo">Personalizar Arreglo</h1>
         </div>
-        <section class="contenido-perfil">
-            <h2 class="contenido-perfil__titulo">Categoria Arreglo</h2>
+        <h2 class="contenedor__titulo">Categoria Arreglo</h2>
+        <section class="contenido-personalizar__contenedor">
+            <form class="contenedor__formulario" action="mis-arreglos.html" method="get">
+                <div class="formulario__seleccion">
+                    <input type="radio" id="dobladillo" name="categoria" value="Dobladillo" class="seleccion__circulo">
+                    <label for="dobladillo" class="seleccion__texto">Dobladillo</label>
+                </div>
+                <div class="formulario__seleccion">
+                    <input type="radio" id="estrechar/ensanchar" name="categoria" value="estrechar/ensanchar" class="seleccion__circulo">
+                    <label class="seleccion__texto" for="estrechar/ensanchar">Estrechar / Ensanchar</label>
+                </div>
+                <div class="formulario__seleccion">
+                    <input type="radio" id="recortar" name="categoria" value="recortar" class="seleccion__circulo">
+                    <label for="recortar" class="seleccion__texto">Recortar</label>
+                </div>
+                <textarea class="formulario__descripcion" placeholder="Describe tu petición"></textarea>
+                <h2 class="formulario__titulo">Material / Tela</h2>
+                <div class="formulario__subir-foto">
+                    <input type="file" id="foto-referencia" class="subir-foto__foto">
+                    <label for="foto-referencia" class="subir-foto__agregar">
+                        <img src="../../Assets/icons/agregar-imagen.png" alt="icono de agregar" class="subir-foto__icono">
+                        Subir Foto
+                    </label>
+                </div>
+                <div class="formulario__seccion-boton">
+                    <button class="informacion__enlace-personalizar informacion__enlace-personalizar--modificador" href="personalizar-arreglo.html">Confirmar Arreglo</button>
+                </div>
+            </form>
         </section>
     </main>
     <footer class="navbar">
