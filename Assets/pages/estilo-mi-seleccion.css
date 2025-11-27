@@ -1,15 +1,74 @@
-.contenido-seleccion{
-    grid-area: main;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 75px;
+/* CONTENEDOR PRINCIPAL */
+.contenido-seleccion {
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 75px;
 }
 
-.contenido__titulo-seleccion{
-    font-family: var(--tipo-fuente);
-    font-size: 24px;
-    margin-top: 8%;
-    margin-right: 55%;
+.contenido__titulo-seleccion {
+  font-family: var(--tipo-fuente);
+  font-size: 24px;
+  margin-top: 8%;
+  margin-right: 55%;
+}
+
+/* CONTENIDO QUE ESTÁ DENTRO DE LA CARD */
+.contenido-seleccion__contenedor {
+  display: flex;
+  width: 385px;
+  gap: 10px;
+  background-color: #d9d9d9;
+  padding: 10px;
+  border-radius: 14px;
+  border: 1px solid var(--color-enlace-seleccion);
+  margin-top: 15px;
+}
+.contenedor__imagen {
+  width: 85px;
+  border-radius: 17px;
+}
+
+/* SECCIÓN DE INFORMACION */
+.contenido-seleccion__contenedor-informacion {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.contenedor-informacion__informacion {
+  display: flex;
+  flex-direction: column;
+}
+
+.informacion__titulo-arreglo {
+  font-family: var(--tipo-fuente);
+  font-size: 15px;
+}
+
+.informacion__descripcion {
+  font-size: 8px;
+}
+
+.contenedor__pago-enlace {
+  display: flex;
+  justify-content: flex-start;
+  align-items: var(--alinear-items);
+  gap: 90px;
+}
+
+.pago-enlace__precio {
+  font-size: 15px;
+  font-weight: var(--grosor-fuente);
+}
+
+.pago-enlace__enlace {
+  background-color: #6a1b9a;
+  padding: 4px;
+  font-size: 10px;
+  color: white;
+  margin-left: 10%;
+  border-radius: 3px;
+  font-weight: bold;
 }
