@@ -56,6 +56,7 @@
     --margen-imagen-texto: 40px;
     /* BORDES */
     --borde-contenedor-login: 29px;
+    --borde-imagenes: 17px;
 }
 
 body{

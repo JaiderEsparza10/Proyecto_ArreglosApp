@@ -41,10 +41,11 @@
     border-top-left-radius: 41px;
     border-top-right-radius: 41px;
 }
+/* ESTILOS PARA LAS IMAGENES DE LOS DETALLES */
 .informacion-detalles__imagen-arreglo{
     width: var(--ancho-contenedores-informacion);
     height: 300px;
     position: absolute;
     top: -215px;
-    border-radius: 41px;
+    border-radius: var(--borde-imagenes);
 }

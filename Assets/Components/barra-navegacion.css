@@ -2,12 +2,12 @@
 .navbar{
     grid-area: footer;
     width: 95vw;
+    justify-self: center;
 }
 .navbar-inferior {
     position: fixed;
     bottom: 0;
     width: 95%;
-    height: 60px;
     display: flex;
     justify-content: space-around;
     align-items: center;
