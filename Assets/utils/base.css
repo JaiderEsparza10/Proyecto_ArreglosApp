@@ -53,6 +53,7 @@
     --margen-arriba: 10px;
     --distancia-titulo: 30px;
     --contenedor-distancia-titulo: 30px; 
+    --margen-imagen-texto: 40px;
     /* BORDES */
     --borde-contenedor-login: 29px;
 }

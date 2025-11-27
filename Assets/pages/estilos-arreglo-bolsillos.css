@@ -1,0 +1,7 @@
+.informacion-detalles__imagen-bolsillo{
+    width: var(--ancho-contenedores-informacion);
+    height: 300px;
+    position: absolute;
+    top: -215px;
+    border-radius: 41px;
+}

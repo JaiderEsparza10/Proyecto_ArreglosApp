@@ -43,69 +43,8 @@
 }
 .informacion-detalles__imagen-arreglo{
     width: var(--ancho-contenedores-informacion);
+    height: 300px;
     position: absolute;
-    top: -205px;
+    top: -215px;
     border-radius: 41px;
-}
-.informacion-detalles__informacion{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: justify;
-    margin-right: 3px;
-    width: var(--ancho-contenedores-informacion);
-    gap: 25px;
-    margin-top: var(--margen-abajo);
-}
-
-.informacion__titulo{
-    font-size: 30px;
-}
-
-.informacion__parrafo{
-    font-size: 13px;
-    color: var(--color-parrafo-detalles);
-}
-
-.informacion__enlace{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid var(--color-borde);
-    border-radius: 10px;
-    margin-right: 97px;
-    color: var(--color-enlace-seleccion);
-    font-weight: var(--grosor-fuente);
-    padding: 6px;
-    font-size: 13px;
-}
-
-.informacion__enlace:focus{
-    background-color: var(--color-boton);
-    color: var(--color-fuente);
-}
-
-.enlace__icono{
-    width: 30px;
-    margin-right: 6px;
-}
-
-.informacion__tiempo-estimado{
-    display: flex;
-    gap: 10px;
-}
-
-.tiempo-estimado__dias{
-    color: var(--color-boton);
-}
-
-/* ENLACE PARA ENVIAR HACIA EL APARTADO DE PERSONALIZAR ARREGLO */
-.informacion__enlace-personalizar{
-    width: var(--ancho-contenedores-informacion);
-    text-align: center;
-    background: var(--color-gradiente-enlace);
-    color: var(--color-fuente);
-    padding: 15px;
-    border-radius: 16px;
 }

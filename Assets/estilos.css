@@ -17,7 +17,6 @@
 @import url(pages/estilos-vestidos-finos.css);
 @import url(pages/estilos-detalles-sastreria.css);
 @import url(pages/estilos-arreglo-bolsillos.css);
-@import url(pages/estilos-planchado-ropa.css);
 /* IMPORTAMOS LOS COMPONENTES QUE HAN SIDO CREADOS */
 @import url(Components/boton_inicio.css);
 @import url(Components/encabezado-logo.css);
@@ -27,3 +26,4 @@
 @import url(utils/grid-principal.css);
 @import url(Components/barra-navegacion.css);
 @import url(Components/seccion-encabezado.css);
+@import url(Components/cards-detalles.css);
