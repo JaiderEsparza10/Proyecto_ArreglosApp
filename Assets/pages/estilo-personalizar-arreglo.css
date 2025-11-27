@@ -1,0 +1,24 @@
+/* CONTENEDOR EL ENLACE PARA VOLVER ATRAS */
+.contenido-perfil__enlace-volver{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    height: var(--tamano-header);
+    width: 100vw;
+}
+
+.enlace-volver__enlace{
+    margin-top: 7px;
+}
+
+.enlace-volver__titulo{
+    font-size: 20px;
+}
+
+/* CONTENEDOR PRINCIPAL ALMACENAMIENTO INFORMACIÓN */
+.contenido-perfil__titulo{
+    font-size: var(--tamano-fuente-titulos);
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
