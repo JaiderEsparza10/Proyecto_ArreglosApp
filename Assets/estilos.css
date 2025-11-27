@@ -1,5 +1,5 @@
 /* IMPORTAMOS LAS FUENTES QUE VAMOS A UTILIZAR Y LAS CUSTOM PROPERTIES */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url(utils/base.css);
 /* IMPORTAMOS LOS ESTILOS CSS PARA CADA PAGINA */
 @import url(pages/estilo-inicio-sesion.css);
@@ -18,6 +18,7 @@
 @import url(pages/estilos-detalles-sastreria.css);
 @import url(pages/estilos-arreglo-bolsillos.css);
 @import url(pages/estilo-personalizar-arreglo.css);
+@import url(pages/estilos-eliminar-seleccion.css);
 /* IMPORTAMOS LOS COMPONENTES QUE HAN SIDO CREADOS */
 @import url(Components/boton_inicio.css);
 @import url(Components/encabezado-logo.css);
@@ -29,3 +30,4 @@
 @import url(Components/seccion-encabezado.css);
 @import url(Components/cards-detalles.css);
 @import url(Components/boton-personalizar.css);
+@import url(Components/boton-eliminar.css);

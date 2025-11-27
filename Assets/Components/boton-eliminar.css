@@ -1,0 +1,14 @@
+/* BOTON NORMAL PARA PERSONALIZAR */
+.pago-enlace__enlace {
+  background-color: var(--color-boton);
+  padding: 4px;
+  font-size: 10px;
+  color: white;
+  margin-left: 10%;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.pago-enlace__enlace--eliminar {
+  background-color: red;
+}

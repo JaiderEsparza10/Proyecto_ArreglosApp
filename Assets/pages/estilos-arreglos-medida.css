@@ -49,3 +49,12 @@
   top: -215px;
   border-radius: var(--borde-imagenes);
 }
+
+/* ICONO DE ELIMINAR  */
+.contenido-seleccion__enlace {
+  margin-top: 22%;
+  margin-left: 85%;
+}
+.enlace__icono-eliminar {
+  width: 50px;
+}
