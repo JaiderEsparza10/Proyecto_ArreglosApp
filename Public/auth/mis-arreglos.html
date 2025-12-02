@@ -18,11 +18,20 @@
           <div class="contenido-seleccion__contenedor-informacion">
             <div class="contenedor-informacion__informacion">
               <h2 class="informacion__titulo-arreglo">Costura y Reparación General</h2>
-              <p class="informacion__descripcion">Representa una amplia gama de servicios de costura</p>
+              <p class="informacion__descripcion">Ultima actualización 08 - 10 - 2025</p>
             </div>
-            <div class="contenedor-informacion__pago-enlace">
-              <h1 class="pago-enlace__precio">$25.000</h1>
-              <a class="pago-enlace__enlace pago-enlace__enlace--eliminar" href="#">Eliminar</a>
+            <div class="contenedor-informacion__enlaces">
+              <a class="enlaces__enlace" href="personalizar-arreglo.html">
+                <img class="enlace__imagen-icono" src="../../Assets/icons/lapiz.png" alt="imagen de un lapiz">
+                Configuración
+              </a>
+              <a class="enlaces__enlace" href="#modalEliminar">
+                <img class="enlace__imagen-icono" src="../../Assets/icons/bote-de-basura-morado.png" alt="imagen de un lapiz">
+                Eliminar
+              </a>
+              <a class="enlaces__enlace enlace__agendar-cita" href="">
+                Agendar Cita
+              </a>
             </div>
           </div>
         </section>
@@ -51,13 +60,30 @@
               <a class="pago-enlace__enlace pago-enlace__enlace--eliminar" href="#">Eliminar</a>
             </div>
           </div>
+          <div id="modalEliminar" class="modal">
+            <div class="modal-fondo">
+                <div class="modal-contenido">
+                    <h3 class="modal__titulo">¿Elimina de la lista?</h3>
+                    <p class="modal__descripcion">¿Estás seguro que quieres eliminar este artículo de tus arreglos?</p>
+                    <div class="modal__acciones">
+                        <a href="#" class="btn-modal btn-modal--cancelar">CANCELAR</a>
+                        <a href="#modalEliminado" class="btn-modal btn-modal--eliminar">ELIMINAR</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div id="modalEliminado" class="modal">
+            <div class="modal-fondo">
+                <div class="modal-contenido">
+                    <img class="modal__imagen" src="../../Assets/icons/confirmacion-datos.png" alt="imagen de confirmado">
+                    <p class="modal__descripcion">¡El articulo fue eliminado con exito!</p>
+                    <div class="modal__acciones">
+                        <a href="#" class="btn-modal btn-modal--cancelar">Volver</a>
+                    </div>
+                </div>
+            </div>
+          </div>
         </section>
-        <a class="contenido-seleccion__enlace" href="../../Public/auth/eliminar-mi-seleccion.html ">
-          <img class="enlace__icono-eliminar" src="../../Assets/icons/eliminar.png" alt="icono de eliminar una selección">
-        </a>
-        <a class="contenido-seleccion__enlace-volver" href="../../Public/auth/mi-seleccion.html">
-          <img class="enlace__icono-volver" src="../../Assets/icons/volver-flecha.png" alt="flecha de volver atras">
-        </a>
     </main>
     <footer class="navbar">
         <nav class="navbar-inferior">

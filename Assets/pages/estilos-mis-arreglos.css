@@ -6,3 +6,31 @@
   align-items: center;
   padding-bottom: 75px;
 }
+
+/* SECCIÓN DE OPCIONES EN MIS ARREGLOS */
+.contenedor-informacion__enlaces{
+  width: 115px;
+  display: flex;
+  gap: 5px;
+}
+
+.enlaces__enlace{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 12px;
+  gap: 5px;
+  color: var(--color-boton);
+}
+
+.enlace__imagen-icono{
+  width: 25px;
+  border: 2px solid var(--color-boton);
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.enlace__agendar-cita{
+  
+}
