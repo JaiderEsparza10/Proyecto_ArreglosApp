@@ -1,3 +1,4 @@
+/* CONTENEDOR PRINCIPAL */
 .contenido-arreglos {
   grid-area: main;
   display: flex;
@@ -13,7 +14,7 @@
   display: flex;
   gap: 5px;
 }
-
+/* SECCIÓN DE LOS ENLACES INFERIORES */
 .enlaces__enlace{
   display: flex;
   justify-content: center;
@@ -23,14 +24,14 @@
   gap: 5px;
   color: var(--color-boton);
 }
-
+/* DISEÑO PARA LAS IMAGENES */
 .enlace__imagen-icono{
   width: 25px;
   border: 2px solid var(--color-boton);
   border-radius: 50%;
   padding: 2px;
 }
-
+/* DISEÑO PARA EL ENLACE AGENDAR CITA */
 .enlace__agendar-cita{
     background-color: var(--color-fondo-encabezado);
     color: var(--color-fuente);
