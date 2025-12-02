@@ -9,7 +9,7 @@
 
 /* SECCIÓN DE OPCIONES EN MIS ARREGLOS */
 .contenedor-informacion__enlaces{
-  width: 115px;
+  width: 300px;
   display: flex;
   gap: 5px;
 }
@@ -18,7 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 10px;
   font-size: 12px;
   gap: 5px;
   color: var(--color-boton);
@@ -32,5 +32,9 @@
 }
 
 .enlace__agendar-cita{
-  
+    background-color: var(--color-fondo-encabezado);
+    color: var(--color-fuente);
+    padding: 5px;
+    border-radius: 15px;
+    width: 110px;
 }
