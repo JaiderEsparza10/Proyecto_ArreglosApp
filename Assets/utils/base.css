@@ -25,6 +25,7 @@
   --color-gradiente-enlace: linear-gradient(#7000ce, #9057fa);
   --color-borde-checkbox: gray;
   --color-fuente-label: #333;
+  --color-bordes: black;
   /* TIPOGRAFIA */
   --tipo-fuente: "Poppins", sans-serif;
   --tamano-fuente: 20px;
@@ -62,6 +63,7 @@
   --borde-imagenes: 17px;
   --borde-label: 50%;
   --borde-cajas: 10px;
+  /* GAPS */
 }
 
 body {

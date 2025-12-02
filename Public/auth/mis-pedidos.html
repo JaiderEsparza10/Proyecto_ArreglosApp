@@ -12,6 +12,30 @@
         <h1 class="seccion-encabezado__nombre">Arreglos App</h1>
     </header>
     <main class="contenido-pedidos">
+        <div class="contenido-pedidos__enlaces">
+            <a href="#activos" class="enlaces__enlace">Activos</a>
+            <a href="#istorial" class="enlaces__enlace">Historial</a>
+        </div>
+        <section id="activos" class="contenido-pedidos__activos">
+            <div class="formulario__calendario calendario__lugar-entrega">
+                <h1 class="lugar-entrega__titulo">Numero de pedido</h1>
+                <p class="lugar-entrega__numero">#P-2024-001A</p>
+                <h1 class="lugar-entrega__titulo">Arreglo: Ajuste Vestido</h1>
+            </div>
+            <div class="activos__estado-pedido">
+                <h1 class="estado-pedido__estado">Estado: Pendiente</h1>
+                <a class="estado-pedido__cancelar" href="">Cancelar</a>
+            </div>
+        </section>
+        <section id="historial" class="contenido-pedidos__activos">
+            <div class="formulario__calendario calendario__lugar-entrega">
+                <h1 class="lugar-entrega__titulo">Lugar Entrega / Recogida</h1>
+                <div class="lugar-entrega__input">
+                    <img class="input__imagen" src="../../Assets/icons/entrega-rapida.png" alt="Caja de entrega">
+                    <input class="input__caja-texto" type="text" name="horaDispoble" id="horaDispoble" placeholder="Lugar Entrega" required>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="navbar">
         <nav class="navbar-inferior">

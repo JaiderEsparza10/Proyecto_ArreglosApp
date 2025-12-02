@@ -1,8 +1,36 @@
+/* CONTENEDOR PRINCIPAL PEDIDOS */
 .contenido-pedidos{
     grid-area: main;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: var(--alinear-items);
     padding-bottom: 75px;
 }
+
+/* CONTENEDOR ENLACES - SECCIÓN SUPERIOR */
+.contenido-pedidos__enlaces{
+    display: flex;
+    gap: 40px;
+}
+
+/* ENLACES PARA LAS VISTAS */
+.enlaces__enlace{
+    font-size: 25px;
+    padding: 10px 10px;
+    font-family: var(--tipo-fuente);
+    font-weight: bold;
+    color: var(--color-enlace-seleccion);
+}
+
+.enlaces__enlace:hover{
+    border-bottom: 2px solid var(--color-bordes);
+}
+
+/* VISTAS DE LOS ACTIVOS */
+.lugar-entrega__numero{
+    font-size: 10px;
+    color: #737373d9;
+}
+
+.

@@ -13,7 +13,7 @@
     </header>
     <main class="contenido-arreglos">
         <h1 class="contenido__titulo-seleccion">Agendar Cita</h1>
-        <form class="contenido-arreglos__formulario" action="pedidos-usuario.html" method="get">
+        <form class="contenido-arreglos__formulario" action="#modalConfirmacion" method="get">
             <div class="formulario__calendario">
                 <h2 class="calendario__mes">Marzo 2025</h2>
                 <div class="calendario__dias">
@@ -77,9 +77,20 @@
                 </div>
             </div>
             <div class="formulario__seccion-boton">
-                <button class="informacion__enlace-personalizar informacion__enlace-personalizar--modificador" href="">Agendar Cita</button>
+                <button class="informacion__enlace-personalizar informacion__enlace-personalizar--modificador" href="#modalConfirmacion">Agendar Cita</button>
             </div>
         </form>
+        <div id="modalConfirmacion" class="modal">
+            <div class="modal-fondo">
+                <div class="modal-contenido">
+                    <img class="modal__imagen" src="../../Assets/icons/confirmacion-datos.png" alt="imagen de confirmado">
+                    <p class="modal__descripcion">¡La cita fue agendada con exito! Por favor no faltes</p>
+                    <div class="modal__acciones">
+                        <a href="pagina-principal.html" class="btn-modal btn-modal--cancelar">Volver al Inicio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="navbar">
         <nav class="navbar-inferior">
