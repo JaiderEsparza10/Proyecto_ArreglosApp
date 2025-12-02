@@ -20,6 +20,7 @@
 @import url(pages/estilo-personalizar-arreglo.css);
 @import url(pages/estilos-eliminar-seleccion.css);
 @import url(pages/estilo-agendar-cita.css);
+@import url(pages/cambiar-contraseña.css);
 /* IMPORTAMOS LOS COMPONENTES QUE HAN SIDO CREADOS */
 @import url(Components/boton_inicio.css);
 @import url(Components/encabezado-logo.css);
