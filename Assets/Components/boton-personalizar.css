@@ -17,7 +17,7 @@
 .informacion__enlace-personalizar--modificador {
     border: 1px solid transparent;
     color: var(--color-fuente);
-    margin-top: 40px;
+    margin-top: 30px;
     font-family: var(--tipo-fuente);
     font-size: 1rem;
 }
