@@ -13,29 +13,94 @@
     </header>
     <main class="contenido-pedidos">
         <div class="contenido-pedidos__enlaces">
-            <a href="#activos" class="enlaces__enlace">Activos</a>
-            <a href="#istorial" class="enlaces__enlace">Historial</a>
+            <a href="#activos" class="enlaces__enlace active">Activos</a>
+            <a href="#historial" class="enlaces__enlace">Historial</a>
         </div>
         <section id="activos" class="contenido-pedidos__activos">
             <div class="formulario__calendario calendario__lugar-entrega">
                 <h1 class="lugar-entrega__titulo">Numero de pedido</h1>
                 <p class="lugar-entrega__numero">#P-2024-001A</p>
                 <h1 class="lugar-entrega__titulo">Arreglo: Ajuste Vestido</h1>
+                <div class="activos__estado-pedido">
+                    <h1 class="estado-pedido__estado">Estado: Pendiente</h1>
+                    <a class="estado-pedido__cancelar" href="#modalEliminar">Cancelar</a>
+                </div>
+                <p class="lugar-entrega__numero">Fecha: 01 - 09 - 2025</p>
             </div>
-            <div class="activos__estado-pedido">
-                <h1 class="estado-pedido__estado">Estado: Pendiente</h1>
-                <a class="estado-pedido__cancelar" href="">Cancelar</a>
+            <div class="formulario__calendario calendario__lugar-entrega">
+                <h1 class="lugar-entrega__titulo">Numero de pedido</h1>
+                <p class="lugar-entrega__numero">#P-2024-001A</p>
+                <h1 class="lugar-entrega__titulo">Arreglo: Ajuste Vestido</h1>
+                <div class="activos__estado-pedido">
+                    <h1 class="estado-pedido__estado">Estado: Pendiente</h1>
+                    <a class="estado-pedido__cancelar" href="#modalEliminar">Cancelar</a>
+                </div>
+                <p class="lugar-entrega__numero">Fecha: 01 - 09 - 2025</p>
+            </div>
+            <div class="formulario__calendario calendario__lugar-entrega">
+                <h1 class="lugar-entrega__titulo">Numero de pedido</h1>
+                <p class="lugar-entrega__numero">#P-2024-001A</p>
+                <h1 class="lugar-entrega__titulo">Arreglo: Ajuste Vestido</h1>
+                <div class="activos__estado-pedido">
+                    <h1 class="estado-pedido__estado">Estado: Pendiente</h1>
+                    <a class="estado-pedido__cancelar" href="#modalEliminar">Cancelar</a>
+                </div>
+                <p class="lugar-entrega__numero">Fecha: 01 - 09 - 2025</p>
             </div>
         </section>
-        <section id="historial" class="contenido-pedidos__activos">
+
+        <article id="historial" class="contenido-pedidos__activos">
             <div class="formulario__calendario calendario__lugar-entrega">
-                <h1 class="lugar-entrega__titulo">Lugar Entrega / Recogida</h1>
-                <div class="lugar-entrega__input">
-                    <img class="input__imagen" src="../../Assets/icons/entrega-rapida.png" alt="Caja de entrega">
-                    <input class="input__caja-texto" type="text" name="horaDispoble" id="horaDispoble" placeholder="Lugar Entrega" required>
+                <h1 class="lugar-entrega__titulo">Numero de pedido</h1>
+                <p class="lugar-entrega__numero">#P-2024-001A</p>
+                <h1 class="lugar-entrega__titulo">Arreglo: Ajuste Vestido</h1>
+                <div class="activos__estado-pedido">
+                    <h1 class="estado-pedido__historial">Estado: Entregado</h1>
+                </div>
+                <p class="lugar-entrega__numero">Fecha: 01 - 09 - 2025</p>
+            </div>
+            <div class="formulario__calendario calendario__lugar-entrega">
+                <h1 class="lugar-entrega__titulo">Numero de pedido</h1>
+                <p class="lugar-entrega__numero">#P-2024-001A</p>
+                <h1 class="lugar-entrega__titulo">Arreglo: Ajuste Vestido</h1>
+                <div class="activos__estado-pedido">
+                    <h1 class="estado-pedido__historial">Estado: Entregado</h1>
+                </div>
+                <p class="lugar-entrega__numero">Fecha: 01 - 09 - 2025</p>
+            </div>
+            <div class="formulario__calendario calendario__lugar-entrega">
+                <h1 class="lugar-entrega__titulo">Numero de pedido</h1>
+                <p class="lugar-entrega__numero">#P-2024-001A</p>
+                <h1 class="lugar-entrega__titulo">Arreglo: Ajuste Vestido</h1>
+                <div class="activos__estado-pedido">
+                    <h1 class="estado-pedido__historial">Estado: Entregado</h1>
+                </div>
+                <p class="lugar-entrega__numero">Fecha: 01 - 09 - 2025</p>
+            </div>
+        </article>
+        <div id="modalEliminar" class="modal">
+            <div class="modal-fondo">
+                <div class="modal-contenido">
+                    <h3 class="modal__titulo">¿Deseas cancelar?</h3>
+                    <p class="modal__descripcion">¿Estas seguro que quieres cancelar este arreglo que ya está programado?</p>
+                    <div class="modal__acciones">
+                        <a href="#" class="btn-modal btn-modal--cancelar">CANCELAR</a>
+                        <a href="#modalEliminado" class="btn-modal btn-modal--eliminar">ELIMINAR</a>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+        <div id="modalEliminado" class="modal">
+            <div class="modal-fondo">
+                <div class="modal-contenido">
+                    <img class="modal__imagen" src="../../Assets/icons/confirmacion-datos.png" alt="imagen de confirmado">
+                    <p class="modal__descripcion">¡El articulo fue eliminado con exito!</p>
+                    <div class="modal__acciones">
+                        <a href="#" class="btn-modal btn-modal--cancelar">Volver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="navbar">
         <nav class="navbar-inferior">

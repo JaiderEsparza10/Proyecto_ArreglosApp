@@ -26,6 +26,7 @@
   --color-borde-checkbox: gray;
   --color-fuente-label: #333;
   --color-bordes: black;
+  --color-fondo-cancelar: red;
   /* TIPOGRAFIA */
   --tipo-fuente: "Poppins", sans-serif;
   --tamano-fuente: 20px;
