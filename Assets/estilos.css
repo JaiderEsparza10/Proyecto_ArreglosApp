@@ -19,6 +19,7 @@
 @import url(pages/estilos-arreglo-bolsillos.css);
 @import url(pages/estilo-personalizar-arreglo.css);
 @import url(pages/estilos-eliminar-seleccion.css);
+@import url(pages/estilo-agendar-cita.css);
 /* IMPORTAMOS LOS COMPONENTES QUE HAN SIDO CREADOS */
 @import url(Components/boton_inicio.css);
 @import url(Components/encabezado-logo.css);

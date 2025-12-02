@@ -1,0 +1,41 @@
+.contenido-arreglos__calendario{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #D9D9D9;
+    border-radius: 14px;
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.calendario__mes{
+    text-align: center;
+    padding: 5px;
+    font-size: 19px;
+}
+
+.calendario__dias{
+    width: 325px;
+}
+
+.ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.dias__dia{
+    background-color: #D9D9D9;
+    color: black;
+    padding: 5px;
+    text-align: right;
+}
+
+.dia__numero{
+    text-align: center;
+    padding: 3px;
+    color: black;
+    border: 1px solid black;
+}
