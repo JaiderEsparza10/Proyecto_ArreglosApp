@@ -15,7 +15,7 @@
   gap: 5px;
 }
 /* SECCIÓN DE LOS ENLACES INFERIORES */
-.enlaces__enlace{
+.enlaces__enlace-arreglos{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,10 +32,12 @@
   padding: 2px;
 }
 /* DISEÑO PARA EL ENLACE AGENDAR CITA */
-.enlace__agendar-cita{
+.enlace__cita-usuario{
     background-color: var(--color-fondo-encabezado);
     color: var(--color-fuente);
-    padding: 5px;
+    padding: 8px;
     border-radius: 15px;
     width: 110px;
+    font-size: 12px;
+    margin-top: 10px;
 }
