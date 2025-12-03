@@ -22,6 +22,7 @@
 @import url(pages/estilo-agendar-cita.css);
 @import url(pages/cambiar-contraseña.css);
 @import url(pages/estilos-terminos-condiciones.css);
+@import url(pages/mis-medidas.css);
 /* IMPORTAMOS LOS COMPONENTES QUE HAN SIDO CREADOS */
 @import url(Components/boton_inicio.css);
 @import url(Components/encabezado-logo.css);
