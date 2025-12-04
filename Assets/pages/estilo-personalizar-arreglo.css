@@ -1,5 +1,5 @@
 /* CONTENEDOR EL ENLACE PARA VOLVER ATRAS */
-.contenido-personalizar{
+.contenido-personalizar {
     grid-area: main;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,8 @@
     align-items: var(--alinear-items);
     padding-bottom: 75px;
 }
-.contenido-personalizar__enlace-volver{
+
+.contenido-personalizar__enlace-volver {
     display: flex;
     justify-content: space-between;
     padding: 25px;
@@ -15,24 +16,24 @@
     width: 100vw;
 }
 
-.enlace-volver__enlace{
+.enlace-volver__enlace {
     margin-top: 7px;
 }
 
-.enlace-volver__titulo{
+.enlace-volver__titulo {
     font-size: var(--tamano-fuente);
 }
 
 /* CONTENEDOR PRINCIPAL ALMACENAMIENTO INFORMACIÓN */
-.contenedor__titulo{
+.contenedor__titulo {
     font-size: var(--tamano-fuente-titulos);
     position: absolute;
-    top: 25%;
+    top: 23%;
     left: 5%;
 }
 
 /* FORMULARIO DE PERSONALIZACIÓN DEL ARREGLO */
-.contenido-personalizar__contenedor{
+.contenido-personalizar__contenedor {
     display: flex;
     flex-direction: column;
     margin-top: 45px;
@@ -40,7 +41,7 @@
     width: 90vw;
 }
 
-.contenedor__formulario{
+.contenedor__formulario {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -57,14 +58,15 @@
     background-color: var(--color-fondo-detalles);
     cursor: pointer;
 }
-.seleccion__circulo{
+
+.seleccion__circulo {
     display: none;
 }
 
-.seleccion__texto{
+.seleccion__texto {
     flex-grow: 1;
     position: relative;
-    padding-left: 35px; 
+    padding-left: 35px;
     cursor: pointer;
     font-size: 1em;
     color: var(--color-fuente-label);
@@ -84,14 +86,14 @@
     transition: 0.2s;
 }
 
-.seleccion__circulo:checked + .seleccion__texto::before {
+.seleccion__circulo:checked+.seleccion__texto::before {
     border-color: var(--color-boton);
 }
 
-.seleccion__circulo:checked + .seleccion__texto::after {
+.seleccion__circulo:checked+.seleccion__texto::after {
     content: '';
     position: absolute;
-    left: 1px; 
+    left: 1px;
     top: 50%;
     transform: translateY(-50%);
     width: 22px;
@@ -101,22 +103,22 @@
 }
 
 /* APARTADO DE DESCRIPCIÓN DEL USUARIO */
-.formulario__descripcion{
+.formulario__descripcion {
     width: 100%;
     height: 80px;
     padding: 15px;
     border: 1px solid var(--color-borde-checkbox);
     border-radius: var(--borde-cajas);
     box-sizing: border-box;
-    background-color: #f0f0f0; 
-    resize: none; 
+    background-color: #f0f0f0;
+    resize: none;
     font-size: 0.8em;
     color: #555;
     font-family: var(--tipo-fuente);
 }
 
 /* SECCIÓN DE EVIDENCIA DE SUBIR FOTOS */
-.formulario__titulo{
+.formulario__titulo {
     font-size: var(--tamano-fuente-titulos);
 }
 
@@ -128,11 +130,11 @@
     margin: -1px;
 }
 
-.formulario__subir-foto .subir-foto__agregar{
+.formulario__subir-foto .subir-foto__agregar {
     display: flex;
     align-items: var(--alinear-items);
     justify-content: flex-start;
-    width: var(--ancho-input); 
+    width: var(--ancho-input);
     padding: 15px;
     border: none;
     border-radius: var(--borde-cajas);
@@ -144,9 +146,8 @@
 }
 
 /* --- 3. Estilizar la Imagen/Icono --- */
-.formulario__subir-foto .subir-foto__icono{
+.formulario__subir-foto .subir-foto__icono {
     width: 28px;
     height: 28px;
     margin-right: 10px;
 }
-
