@@ -90,6 +90,11 @@
         width: 90px;
     }
 
+    .encabezado__logo {
+        width: 90px;
+        margin-left: 15%;
+    }
+
     .seccion-encabezado__nombre {
         font-size: 1.8em;
     }
@@ -234,6 +239,11 @@
         align-items: center;
         gap: 25px;
         min-height: calc(100vh - 120px);
+        margin-left: 10%;
+    }
+
+    .contenido-seleccion--eliminar {
+        margin-left: 22%;
     }
 
     .contenido__titulo-seleccion {
@@ -245,7 +255,7 @@
 
     .contenido-seleccion__contenedor {
         max-width: 900px;
-        width: 100%;
+        width: 80%;
         padding: 25px;
         transition: box-shadow 0.3s ease;
         margin: 0 auto;
@@ -732,7 +742,6 @@
 
     .btn-modal {
         font-size: 16px;
-        padding: 12px 30px;
     }
 }
 
