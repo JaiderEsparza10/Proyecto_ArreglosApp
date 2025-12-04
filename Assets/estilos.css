@@ -37,4 +37,5 @@
 @import url(Components/boton-eliminar.css);
 @import url(Components/ventana-emergente-eliminar.css);
 /* IMPORTAMOS LOS ESTILOS RESPONSIVOS PARA TABLET Y DESKTOP */
-@import url(utils/responsive.css);
+@import url(utils/responsive-tablet.css);
+@import url(utils/responsive-desktop.css);
