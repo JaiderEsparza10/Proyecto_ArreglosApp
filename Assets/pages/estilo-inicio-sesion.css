@@ -47,11 +47,11 @@
     font-size: var(--tamano-fuente-formulario);
 }
 
-.campo__usuario label {
+.campo__label {
     margin-top: var(--margen-arriba);
 }
 
-.campo__usuario .campo__usuario__icono{
+.campo__icono {
     width: var(--ancho-general);
     margin-right: 10px;
     margin-top: 4px;
@@ -75,15 +75,9 @@
     color: var(--color-fuente);
 }
 
-.campo__contrasena label {
-    margin-top: var(--margen-arriba);
-}
+/* Los estilos de label ya están en .campo__label */
 
-.campo__contrasena .campo__contrasena__icono {
-    margin-top: 5px;
-    width: var(--ancho-general);
-    margin-right: 4%;
-}
+/* Los estilos de icono ya están en .campo__icono */
 
 
 /* Estilo para la línea separadora */

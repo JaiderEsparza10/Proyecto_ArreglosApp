@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Assets/estilos.css">
     <title>Inicio de Sesión</title>
 </head>
+
 <body>
     <header class="seccion-logo">
         <img class="seccion-logo__logo" src="Assets/image/logo-app.png" alt="logo de la aplicación">
@@ -17,21 +19,22 @@
         <form class="contenedor-login" action="Public/auth/pagina-principal.html" method="get">
             <div class="contenedor-login__campo">
                 <div class="campo__usuario">
-                    <img class="campo__usuario__icono" src="Assets/icons/user.png" alt="icono de usuario">
-                    <label for="usuario">Usuario</label>
+                    <img class="campo__icono" src="Assets/icons/user.png" alt="icono de usuario">
+                    <label class="campo__label" for="usuario">Usuario</label>
                 </div>
                 <input type="text" id="usuario" placeholder="">
                 <div class="linea-separadora"></div>
             </div>
             <div class="contenedor-login__campo">
                 <div class="campo__contrasena">
-                    <img class="campo__contrasena__icono" src="Assets/icons/padlock.png" alt="icono de candado">
-                    <label for="contrasena">Contraseña</label>
+                    <img class="campo__icono" src="Assets/icons/padlock.png" alt="icono de candado">
+                    <label class="campo__label" for="contrasena">Contraseña</label>
                 </div>
                 <input type="password" id="contrasena" placeholder="">
                 <div class="linea-separadora"></div>
             </div>
-            <a class="contenedor-login__formulario-recuperar" href="Public/auth/recuperar-contrasena.html">¿Olvidaste tu contraseña?</a>
+            <a class="contenedor-login__formulario-recuperar" href="Public/auth/recuperar-contrasena.html">¿Olvidaste tu
+                contraseña?</a>
             <button type="submit" class="contenedor-login__iniciar-sesion">INICIAR SESIÓN</button>
             <div class="contenedor-login__registrarse">
                 <h3 class="registrarse__pregunta">¿No tienes cuenta?</h3>
@@ -40,4 +43,5 @@
         </form>
     </main>
 </body>
+
 </html>
