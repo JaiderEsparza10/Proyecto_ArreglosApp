@@ -743,6 +743,67 @@
     .btn-modal {
         font-size: 16px;
     }
+
+    /* --- SERVICIOS ADMIN - CARDS MÁS GRANDES --- */
+    .servicios__lista {
+        gap: 20px;
+    }
+
+    .servicio-card {
+        border-radius: 25px;
+    }
+
+    .servicio-card__imagen {
+        width: 180px;
+        min-height: 160px;
+        border-top: 6px solid var(--color-fondo-encabezado);
+    }
+
+    .servicio-card__info {
+        padding: 20px 25px;
+        gap: 8px;
+    }
+
+    .servicio-card__nombre {
+        font-size: 22px;
+    }
+
+    .servicio-card__descripcion {
+        font-size: 14px;
+    }
+
+    .servicio-card__precio {
+        font-size: 28px;
+    }
+
+    .servicio-card__acciones {
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 12px;
+        padding: 20px;
+    }
+
+    .servicio-card__btn {
+        padding: 12px 24px;
+        font-size: 15px;
+        border-radius: 8px;
+    }
+
+    .dashboard__titulo-seccion {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .dashboard__btn-agregar {
+        padding: 16px 30px;
+        font-size: 18px;
+        border-radius: 12px;
+        margin-top: 25px;
+    }
+
+    .dashboard__btn-agregar-icono {
+        width: 22px;
+    }
 }
 
 /* ============================================

@@ -23,6 +23,7 @@
   color: var(--color-fuente);
   font-weight: var(--grosor-fuente);
 }
+
 /* SECCIÓN DE CONTENIDO PRINCIPAl */
 .contenido-detalles {
   height: var(--tamano-main-detalles);
@@ -30,6 +31,7 @@
   flex-direction: column;
   justify-content: end;
 }
+
 .contenido-detalles_informacion-detalles {
   display: flex;
   flex-direction: column;
@@ -41,6 +43,7 @@
   border-top-left-radius: 41px;
   border-top-right-radius: 41px;
 }
+
 /* ESTILOS PARA LAS IMAGENES DE LOS DETALLES */
 .informacion-detalles__imagen-arreglo {
   width: var(--ancho-contenedores-informacion);
@@ -55,6 +58,9 @@
   margin-top: 20%;
   margin-left: 85%;
 }
+
 .enlace__icono-eliminar {
   width: 50px;
+  margin-left: 93px;
+  margin-top: 30%;
 }
