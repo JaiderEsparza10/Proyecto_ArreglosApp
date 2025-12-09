@@ -28,7 +28,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-fondo-encabezado);
+    background-color: #7F84E2;
     border-radius: 12px;
     padding: 15px 25px;
     min-width: 140px;
@@ -145,7 +145,7 @@
 
 .pedido__estado {
     padding: 5px 12px;
-    border-radius: 15px;
+    border-radius: 5px;
     font-size: 10px;
     font-weight: 500;
     border: none;
@@ -154,23 +154,23 @@
 }
 
 .pedido__estado--en-taller {
-    background-color: #E3F2FD;
-    color: #1976D2;
+    background-color: #0DFF00;
+    color: var(--color-fuente);
 }
 
 .pedido__estado--pendiente {
-    background-color: #FFF3E0;
-    color: #F57C00;
+    background-color: #FF0004;
+    color: var(--color-fuente);
 }
 
 .pedido__estado--entregado {
-    background-color: #E8F5E9;
-    color: #388E3C;
+    background-color: #424242;
+    color: var(--color-fuente);
 }
 
 .pedido__enlace {
     padding: 5px 12px;
-    border-radius: 15px;
+    border-radius: 5px;
     font-size: 10px;
     font-weight: 500;
     background-color: var(--color-fondo-encabezado);
@@ -178,10 +178,6 @@
     text-align: center;
     min-width: 70px;
 }
-
-/* =====================================================
-   ESTILOS DETALLE DE PEDIDO
-   ===================================================== */
 
 /* CONTENEDOR PRINCIPAL DETALLE */
 .detalle-pedido {
@@ -295,18 +291,18 @@
 }
 
 .estado-badge--pendiente {
-    background-color: #FFF3E0;
-    color: #F57C00;
+    background-color: #FF0004;
+    color: var(--color-fuente);
 }
 
 .estado-badge--en-taller {
-    background-color: #E3F2FD;
-    color: #1976D2;
+    background-color: #0DFF00;
+    color: var(--color-fuente);
 }
 
 .estado-badge--entregado {
-    background-color: #E8F5E9;
-    color: #388E3C;
+    background-color: #424242;
+    color: var(--color-fuente);
 }
 
 /* BOTÓN ACTUALIZAR - ESTILO OUTLINE */
@@ -330,10 +326,6 @@
     background-color: var(--color-fondo-encabezado);
     color: var(--color-fuente);
 }
-
-/* =====================================================
-   MODAL DE ÉXITO (Solo CSS, sin JS)
-   ===================================================== */
 
 .modal-exito {
     position: fixed;
@@ -381,6 +373,11 @@
     font-family: var(--tipo-fuente);
     cursor: pointer;
 }
+
+.contenido-personalizar {
+    margin-left: 0;
+}
+
 /* =====================================================
    OPCIONES DE ESTADO CLICKEABLES
    ===================================================== */

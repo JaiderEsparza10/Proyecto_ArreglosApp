@@ -24,6 +24,7 @@
 @import url(pages/estilos-terminos-condiciones.css);
 @import url(pages/mis-medidas.css);
 @import url(pages/estilos-dashboard-admin.css);
+@import url(pages/estilos-servicios-admin.css);
 /* IMPORTAMOS LOS COMPONENTES QUE HAN SIDO CREADOS */
 @import url(Components/boton_inicio.css);
 @import url(Components/encabezado-logo.css);

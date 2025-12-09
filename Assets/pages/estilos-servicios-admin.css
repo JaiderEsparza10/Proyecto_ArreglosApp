@@ -1,0 +1,194 @@
+/* TITULO DE SECCION */
+.dashboard__titulo-seccion {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-precio-titulos);
+    margin-bottom: 10px;
+}
+
+/* LISTA DE SERVICIOS */
+.servicios__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* TARJETA DE SERVICIO */
+.servicio-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    gap: 12px;
+}
+
+.servicio-card__imagen {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.servicio-card__info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.servicio-card__nombre {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--color-precio-titulos);
+    line-height: 1.2;
+}
+
+.servicio-card__precio {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--color-fondo-encabezado);
+}
+
+.servicio-card__acciones {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.servicio-card__btn {
+    padding: 5px 12px;
+    border-radius: 12px;
+    font-size: 9px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    min-width: 60px;
+}
+
+.servicio-card__btn--editar {
+    background-color: #E3F2FD;
+    color: #1976D2;
+}
+
+.servicio-card__btn--eliminar {
+    background-color: #FFEBEE;
+    color: #D32F2F;
+}
+
+/* BOTON AGREGAR CATALOGO */
+.dashboard__btn-agregar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: green;
+    color: var(--color-fuente);
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.dashboard__btn-agregar-icono {
+    width: 16px;
+    filter: brightness(0) invert(1);
+}
+
+.formulario-servicio {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario-servicio__titulo {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-precio-titulos);
+    margin-bottom: 5px;
+}
+
+.formulario-servicio__grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.formulario-servicio__label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--color-precio-titulos);
+}
+
+.formulario-servicio__input {
+    padding: 10px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 12px;
+    font-family: var(--tipo-fuente);
+    background-color: #f9f9f9;
+}
+
+.formulario-servicio__input::placeholder {
+    color: #999;
+}
+
+.formulario-servicio__textarea {
+    padding: 10px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 12px;
+    font-family: var(--tipo-fuente);
+    background-color: #f9f9f9;
+    min-height: 80px;
+    resize: vertical;
+}
+
+/* SUBIR FOTO */
+.formulario-servicio__foto {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.formulario-servicio__foto-preview {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.formulario-servicio__foto-icono {
+    width: 30px;
+}
+
+.formulario-servicio__foto-texto {
+    font-size: 11px;
+    color: #666;
+}
+
+/* BOTON SUBMIT */
+.formulario-servicio__btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: var(--color-fondo-encabezado);
+    color: var(--color-fuente);
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--tipo-fuente);
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+}
