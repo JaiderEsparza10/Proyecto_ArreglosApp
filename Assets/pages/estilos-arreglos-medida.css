@@ -55,12 +55,17 @@
 
 /* ICONO DE ELIMINAR  */
 .contenido-seleccion__enlace {
-  margin-top: 20%;
-  margin-left: 85%;
+  margin-left: 55%;
 }
 
-.enlace__icono-eliminar {
+.icono_eliminar--modificar {
   width: 50px;
-  margin-left: 93px;
+  margin-left: 150px;
   margin-top: 30%;
+}
+
+.enlace__icono-eliminar--activo {
+  width: 50px;
+  margin-left: 130px;
+  margin-top: 20%;
 }
