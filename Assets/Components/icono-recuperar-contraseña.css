@@ -1,4 +1,7 @@
-.contenedor-principal__logo-recuperar{
+/* =====================================================
+   ICONO RECUPERAR CONTRASEÑA
+   ===================================================== */
+.contenedor-principal__logo-recuperar {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -12,6 +15,6 @@
     top: 60px;
 }
 
-.contenedor-principal__imagen{
+.contenedor-principal__imagen {
     width: 90px;
 }

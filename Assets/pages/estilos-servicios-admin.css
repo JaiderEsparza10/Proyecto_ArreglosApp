@@ -3,7 +3,8 @@
     font-size: 18px;
     font-weight: 600;
     color: var(--color-precio-titulos);
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    padding-left: 10px;
 }
 
 /* LISTA DE SERVICIOS */
@@ -21,8 +22,8 @@
     background: linear-gradient(135deg, #f8f8f8 0%, #ebebeb 100%);
     border-radius: 16px;
     overflow: hidden;
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border: 1px solid var(--color-borde-gris-claro);
+    box-shadow: var(--sombra-card);
 }
 
 .servicio-card__imagen {
@@ -86,7 +87,7 @@
 }
 
 .servicio-card__btn--eliminar {
-    background-color: #DC3545;
+    background-color: var(--color-estado-pendiente);
     color: white;
 }
 
@@ -138,21 +139,21 @@
 
 .formulario-servicio__input {
     padding: 10px 12px;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
+    border: 1px solid var(--color-borde-gris-claro);
+    border-radius: var(--radio-input);
     font-size: 12px;
     font-family: var(--tipo-fuente);
     background-color: #f9f9f9;
 }
 
 .formulario-servicio__input::placeholder {
-    color: #999;
+    color: var(--color-texto-placeholder);
 }
 
 .formulario-servicio__textarea {
     padding: 10px 12px;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
+    border: 1px solid var(--color-borde-gris-claro);
+    border-radius: var(--radio-input);
     font-size: 12px;
     font-family: var(--tipo-fuente);
     background-color: #f9f9f9;
@@ -183,7 +184,7 @@
 
 .formulario-servicio__foto-texto {
     font-size: 11px;
-    color: #666;
+    color: var(--color-texto-gris);
 }
 
 /* BOTON SUBMIT */

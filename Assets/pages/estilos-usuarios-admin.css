@@ -9,14 +9,14 @@
     padding: 20px;
     padding-bottom: 80px;
     gap: 15px;
-    background-color: #f5f5f5;
+    background-color: var(--color-fondo-gris-claro);
 }
 
 .usuarios__buscador {
     display: flex;
     align-items: center;
     background-color: #ffffff;
-    border: 1px solid #e0e0e0;
+    border: 1px solid var(--color-borde-gris-claro);
     border-radius: 20px;
     padding: 10px 15px;
     gap: 10px;
@@ -51,7 +51,7 @@
     flex-direction: row;
     align-items: center;
     background-color: #ffffff;
-    border-radius: 12px;
+    border-radius: var(--radio-card);
     padding: 12px 15px;
     border: 2px solid var(--color-fondo-encabezado);
     gap: 12px;
@@ -61,7 +61,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #e0e0e0;
+    background-color: var(--color-borde-gris-claro);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,7 +111,7 @@
     padding: 20px;
     padding-bottom: 80px;
     gap: 15px;
-    background-color: #f5f5f5;
+    background-color: var(--color-fondo-gris-claro);
 }
 
 .detalle-usuario__volver {
@@ -139,7 +139,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f5f5f5;
+    background-color: var(--color-fondo-gris-claro);
 }
 
 .detalle-usuario__avatar-icono {
@@ -156,9 +156,9 @@
 
 .info-usuario__campo {
     background-color: #ffffff;
-    border-radius: 12px;
+    border-radius: var(--radio-card);
     padding: 15px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid var(--color-borde-gris-claro);
 }
 
 .info-usuario__label {
@@ -176,9 +176,9 @@
 
 .info-usuario__medidas {
     background-color: #ffffff;
-    border-radius: 12px;
+    border-radius: var(--radio-card);
     padding: 15px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid var(--color-borde-gris-claro);
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -205,7 +205,7 @@
     display: block;
     width: 100%;
     padding: 14px;
-    background-color: #FF0004;
+    background-color: var(--color-estado-pendiente);
     color: var(--color-fuente);
     border: none;
     border-radius: 25px;

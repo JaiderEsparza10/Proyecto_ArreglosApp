@@ -6,6 +6,7 @@
   list-style: none;
   text-decoration: none;
 }
+
 /* Ahora aplicamos las custom properties */
 :root {
   /* COLORES */
@@ -27,6 +28,21 @@
   --color-fuente-label: #333;
   --color-bordes: black;
   --color-fondo-cancelar: red;
+  --color-fondo-gris-claro: #f5f5f5;
+  --color-borde-gris-claro: #e0e0e0;
+  --color-texto-gris: #666666;
+  --color-texto-placeholder: #999999;
+  --color-estado-pendiente: #FF0004;
+  --color-estado-taller: #0DFF00;
+  --color-estado-entregado: #424242;
+  --color-estado-amarillo: #FFFF00;
+  /* Added based on mis-pedidos observation */
+
+  /* ESTILOS COMUNES */
+  --sombra-card: 0 2px 6px rgba(0, 0, 0, 0.08);
+  --radio-card: 12px;
+  --radio-input: 8px;
+
   /* TIPOGRAFIA */
   --tipo-fuente: "Poppins", sans-serif;
   --tamano-fuente: 20px;

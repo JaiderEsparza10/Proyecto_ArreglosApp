@@ -1,5 +1,5 @@
 /* CONTENEDOR PRINCIPAL PEDIDOS */
-.contenido-pedidos{
+.contenido-pedidos {
     grid-area: main;
     display: flex;
     flex-direction: column;
@@ -9,13 +9,13 @@
 }
 
 /* CONTENEDOR ENLACES - SECCIÓN SUPERIOR */
-.contenido-pedidos__enlaces{
+.contenido-pedidos__enlaces {
     display: flex;
     gap: 40px;
 }
 
 /* ENLACES PARA LAS VISTAS */
-.enlaces__enlace{
+.enlaces__enlace {
     font-size: 25px;
     padding: 10px 10px;
     font-family: var(--tipo-fuente);
@@ -23,29 +23,29 @@
     color: var(--color-enlace-seleccion);
 }
 
-.enlaces__enlace:hover{
+.enlaces__enlace:hover {
     border-bottom: 2px solid var(--color-bordes);
 }
 
 /* VISTAS DE LOS ACTIVOS */
-.lugar-entrega__numero{
+.lugar-entrega__numero {
     font-size: 10px;
-    color: #737373d9;
+    color: var(--color-texto-gris);
 }
 
-.activos__estado-pedido{
+.activos__estado-pedido {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
 }
 
-.estado-pedido__estado{
+.estado-pedido__estado {
     font-size: 15px;
     font-weight: var(--grosor-fuente);
-    color: #FFFF00;
+    color: var(--color-estado-amarillo);
 }
 
-.estado-pedido__cancelar{
+.estado-pedido__cancelar {
     background-color: var(--color-fondo-cancelar);
     padding: 5px;
     border-radius: 16px;
@@ -57,7 +57,7 @@
 }
 
 /* ESTILOS PARA LA NAVEGACIÓN (TABS) */
-.enlaces__enlace{
+.enlaces__enlace {
     /* ... Tus estilos anteriores ... */
     font-size: 25px;
     padding: 10px 10px;
@@ -88,7 +88,8 @@
 #activos:target,
 #historial:target {
     display: flex;
-    flex-direction: column; /* Asumiendo que quieres que se apilen verticalmente */
+    flex-direction: column;
+    /* Asumiendo que quieres que se apilen verticalmente */
 }
 
 /* 3. **IMPORTANTE:** Mostrar la sección de activos por defecto si no hay fragmento en la URL */
@@ -100,8 +101,8 @@
 }
 
 /* MODIFICAR COLOR */
-.estado-pedido__historial{
+.estado-pedido__historial {
     font-size: 15px;
     font-weight: var(--grosor-fuente);
-    color: green;
+    color: var(--color-estado-taller);
 }

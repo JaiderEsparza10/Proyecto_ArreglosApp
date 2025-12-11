@@ -11,7 +11,7 @@
     padding: 20px;
     padding-bottom: 80px;
     gap: 20px;
-    background-color: #f5f5f5;
+    background-color: var(--color-fondo-gris-claro);
 }
 
 /* SECCIÓN DE ESTADÍSTICAS */
@@ -29,7 +29,7 @@
     align-items: center;
     justify-content: center;
     background-color: #7F84E2;
-    border-radius: 12px;
+    border-radius: var(--radio-card);
     padding: 15px 25px;
     min-width: 140px;
     color: var(--color-fuente);
@@ -90,8 +90,8 @@
     background-color: #ffffff;
     border-radius: 20px;
     padding: 15px 18px;
-    border: 1px solid #e0e0e0;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    border: 1px solid var(--color-borde-gris-claro);
+    box-shadow: var(--sombra-card);
 }
 
 .pedido__contenido {
@@ -154,17 +154,17 @@
 }
 
 .pedido__estado--en-taller {
-    background-color: #0DFF00;
+    background-color: var(--color-estado-taller);
     color: var(--color-fuente);
 }
 
 .pedido__estado--pendiente {
-    background-color: #FF0004;
+    background-color: var(--color-estado-pendiente);
     color: var(--color-fuente);
 }
 
 .pedido__estado--entregado {
-    background-color: #424242;
+    background-color: var(--color-estado-entregado);
     color: var(--color-fuente);
 }
 
@@ -187,7 +187,7 @@
     padding: 20px;
     padding-bottom: 80px;
     gap: 15px;
-    background-color: #f5f5f5;
+    background-color: var(--color-fondo-gris-claro);
 }
 
 /* BOTÓN DE RETROCESO */
@@ -207,9 +207,9 @@
 /* SECCIÓN DE INFORMACIÓN */
 .info-seccion {
     background-color: #ffffff;
-    border-radius: 12px;
+    border-radius: var(--radio-card);
     padding: 18px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid var(--color-borde-gris-claro);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
@@ -218,7 +218,7 @@
     font-weight: 600;
     color: var(--color-precio-titulos);
     margin-bottom: 12px;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid var(--color-borde-gris-claro);
     padding-bottom: 8px;
 }
 
@@ -242,13 +242,13 @@
 
 .info-seccion__valor {
     font-size: 12px;
-    color: #666666;
+    color: var(--color-texto-gris);
 }
 
 /* SECCIÓN SERVICIO SOLICITADO */
 .servicio-info__descripcion {
     font-size: 12px;
-    color: #666666;
+    color: var(--color-texto-gris);
     line-height: 1.5;
     margin-top: 3px;
 }
@@ -256,9 +256,9 @@
 /* SECCIÓN ESTADO DEL PEDIDO */
 .estado-pedido {
     background-color: #ffffff;
-    border-radius: 12px;
+    border-radius: var(--radio-card);
     padding: 18px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid var(--color-borde-gris-claro);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
@@ -291,17 +291,17 @@
 }
 
 .estado-badge--pendiente {
-    background-color: #FF0004;
+    background-color: var(--color-estado-pendiente);
     color: var(--color-fuente);
 }
 
 .estado-badge--en-taller {
-    background-color: #0DFF00;
+    background-color: var(--color-estado-taller);
     color: var(--color-fuente);
 }
 
 .estado-badge--entregado {
-    background-color: #424242;
+    background-color: var(--color-estado-entregado);
     color: var(--color-fuente);
 }
 
